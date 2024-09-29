@@ -1,0 +1,14 @@
+Query,Response
+எனக்கு கட்டுரையின் abstract விரிவான மற்றும் சுருக்கமான சுருக்கம் தேவை,"Here is a detailed abstract and a concise summary of the given context:
+
+**Detailed Abstract:**
+
+The development of novel methods for 3D surface reconstruction has been driven by recent advancements in neural implicit surface reconstruction. A study proposes a neural implicit surface reconstruction method with 3D Gaussian splatting guidance, demonstrating improved reconstruction quality. Another study presents an implicit surface reconstruction method using 3D Gaussian splatting, achieving state-of-the-art results. Research has also focused on extrinsicrobust coloured mapping systems, multiinput multi-scale surfel-based lidar-inertial continuous-time odometry and mapping, and large-scale lidar consistent mapping using hierarchical lidar bundle adjustment. Furthermore, studies have explored moving event detection from lidar point streams, fine image-to-point cloud registration, and probabilistic point cloud modeling via self-organizing Gaussian mixture models.
+
+**Concise Summary:**
+
+Recent research has made significant progress in 3D surface reconstruction, with novel methods and techniques being developed to improve reconstruction quality."
+J'ai besoin d'un résumé détaillé et concis de l'article,"Here is a detailed and concise summary of the article:
+
+The article presents a novel 3D reconstruction system that combines LiDAR with Gaussian Splatting to enhance geometric accuracy in large-scale scenes. The system consists of three main steps: initialization, optimization, and mesh extraction. The initialization step uses plane-constrained multimodal Gaussian Mixture Models to convert LiDAR point clouds into accurate initial Gaussian surfels. The optimization step applies global image normalization, local GMM normalization, and geometry-aware density control to optimize the Gaussian surfels. The mesh extraction step eliminates incorrect samples using a coarse-to-fine method and then applies the screened Poisson reconstruction method to extract meshes. The system achieves significant improvements compared to LiDAR-based methods and Gaussian-based methods, and presents a novel and effective approach to large-scale 3D reconstruction."
+I need a detailed and concise summary of the article.,"The article presents a novel approach to 3D reconstruction and rendering using Gaussian-based methods. The authors propose a comprehensive normalization approach alongside an innovative geometry-aware density control method to address the issue of noisy reconstruction in sparse view scenes. The approach is evaluated on various datasets and compared to existing methods, demonstrating improved geometric quality and rendering quality."

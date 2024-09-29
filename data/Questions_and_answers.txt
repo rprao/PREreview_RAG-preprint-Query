@@ -1,0 +1,287 @@
+Q: What is the first step to starting a PREreview?
+A: The first step is to find a preprint you'd like to review, then copy the preprint's DOI from its server and visit PREreview.org to hit the "Review a preprint" button.
+
+Q: How do I begin a PREreview after pasting the DOI?
+A: After pasting the preprint's DOI, you can pick a type of PREreview to begin. You can choose between structured PREreviews with prompts or templated and free-form PREreviews that allow you to copy and paste your review.
+
+Q: What are the options available for starting a PREreview?
+A: You can either choose a structured PREreview, which provides prompts to answer, or a templated/free-form PREreview where you can copy and paste your review.
+
+Q: Can I choose to remain anonymous when submitting a PREreview?
+A: Yes, you can choose either your public name or a pseudonymous name when submitting a PREreview.
+
+Q: How can I add additional authors to my PREreview?
+A: You can add any additional authors by email before publishing your PREreview.
+
+Q: Do I need to declare any competing interests before publishing my PREreview?
+A: Yes, you must declare any competing interests before publishing the PREreview.
+
+Q: What is required before submitting a PREreview?
+A: You must affirm that you are following PREreview's code of conduct before submitting your review.
+
+Q: How do I publish my PREreview, and what happens afterward?
+A: You publish your PREreview on Zenodo, which assigns you a DOI. PREreview invites additional authors and credits public authors on ORCID. Additionally, PREreview.org will display your review.
+
+Q: Where is my review displayed after submission?
+A: Your PREreview will be displayed on PREreview.org and Zenodo after submission.
+
+PREreview's Commitment to Equity
+
+Q: How does PREreview work towards equity in the peer review process?
+A: PREreview addresses equity by training researchers on providing and receiving feedback, engaging marginalized communities in peer review, and implementing tools to reflect on and reduce personal bias in the review process.
+
+Q: What steps does PREreview take to ensure that historically excluded scientists can participate in peer review?
+A: PREreview offers mentorship programs, open infrastructure, and resources that allow historically excluded scientists to engage in peer review, making it easier for them to contribute to and benefit from the scientific community.
+PREreview's Approach to Success
+
+Q: How does PREreview measure success in its programs?
+A: PREreview sets specific equity goals around inclusion and diversity. They use data and metrics to track their progress and ensure their actions lead to tangible, measurable outcomes in promoting equity in peer review.
+
+
+About PREreview
+
+Q: What is PREreview?
+A: PREreview is an organization dedicated to making scholarly peer review more equitable and transparent. They empower early-career researchers and historically excluded communities to review preprints through a process that is beneficial for them.
+
+Q: Why was PREreview founded?
+A: PREreview was founded in 2017 to address inequities in the scientific review process. The founders believe that science and scholarship should be equitable, transparent, and collaborative, addressing flaws in traditional peer review.
+Mission of PREreview
+
+Q: What is PREreview's mission?
+A: PREreview's mission is to bring equity and transparency to peer review by empowering early-career and historically excluded researchers to participate in preprint review processes that are rewarding and fair.
+
+Q: How does PREreview aim to support underrepresented researchers?
+A: PREreview supports marginalized researchers by providing pathways to peer review, mentorship, and resources that help them overcome barriers typically present in traditional scientific publishing and review processes.
+Values of PREreview
+
+Q: What are the key values of PREreview?
+A: PREreview’s core values include equal access, connecting people, self-reflection, and measurable success. These values shape how they promote equity and transparency in scientific peer review.
+
+Q: How does PREreview address bias in peer review?
+A: PREreview implements action-oriented tools to help scientists mitigate their biases during peer review, mentoring, and research activities, making the review process more equitable.
+What PREreview Does
+
+Q: What services does PREreview provide?
+A: PREreview provides open-source infrastructure for constructive feedback on preprints, facilitates collaborations across geographic and cultural barriers, and partners with organizations to create rewarding preprint review experiences.
+
+Q: How does PREreview facilitate collaboration?
+A: PREreview builds bridges between researchers, reviewers, mentors, and mentees, promoting collaborative feedback and connections that help enrich scientific research.
+Publishing a PREreview
+
+Q: How can I publish a PREreview?
+A: You can publish a PREreview by finding a preprint on a supported server, submitting the DOI through the PREreview website, and completing a review in the workflow provided. Supported servers include bioRxiv, arXiv, medRxiv, and more.
+
+Q: Which preprint servers are supported by PREreview?
+A: PREreview supports servers like bioRxiv, arXiv, medRxiv, OSF, and many others. For a full list, visit the PREreview website or explore preprint curation platforms like Sciety.
+Requesting a PREreview
+
+Q: How can I request a review of a preprint on PREreview?
+A: You can request a review by providing the preprint's DOI on the PREreview website, through their Slack community, or directly from servers like bioRxiv and SciELO Preprints.
+
+Q: What steps are involved in requesting a preprint review on PREreview?
+A: To request a review, visit PREreview.org, input the preprint’s DOI, and submit the request. You can also request reviews through the PREreview Slack community or directly via bioRxiv and SciELO.
+
+Title : Resources 
+Q: Where can I find resources to help guide me in writing peer reviews?
+A: You can find a variety of resources and materials to help guide you in writing peer reviews on the PREreview website. All resources are openly available for download on Zenodo under a CC BY 4.0 license.
+
+Q: What is the Open Reviewers Toolkit?
+A: The Open Reviewers Toolkit comprises three guides that help researchers compose and assess research manuscripts ethically and constructively. It includes the Bias Reflection Guide, the Reviewer Guide, and the Review Assessment Rubric.
+
+Q: What is the Bias Reflection Guide used for?
+A: The Bias Reflection Guide helps reviewers assess their own biases by guiding them through a non-judgmental, self-reflective process, ensuring more ethical and fair reviews.
+
+Q: What does the Reviewer Guide provide?
+A: The Reviewer Guide offers a comprehensive, step-by-step framework for reviewing research manuscripts, helping reviewers to compose thorough and constructive reviews.
+
+Q: What is the purpose of the Review Assessment Rubric?
+A: The Review Assessment Rubric is used to evaluate the quality of a research manuscript review by scoring it on 10 different statements and providing written feedback to improve the review.
+
+Q: What was the Open Peer Reviewers in Africa workshop?
+A: The Open Peer Reviewers in Africa workshop was a peer-review training initiative developed by AfricArXiv, Eider Africa, eLife, TCC Africa, and PREreview, designed specifically for African researchers. Templates of all resources used in the workshop are available on Zenodo in English, French, and Arabic.
+
+Q: What resources were shared from the Open Peer Reviewers in Africa workshop?
+A: Templates shared include the Trainer Guide, Module I and II Template Slide Decks, and Module III Template Facilitation and Assignment Documents, available in English, French, and Arabic.
+
+Q: What is the Open Grant Reviewers initiative?
+A: The Open Grant Reviewers initiative was developed in partnership with the Open Research Funders Group and the Health Research Alliance. It includes training materials focused on identifying and mitigating bias in the grant review process.
+
+Q: What tools are available for grant reviewers?
+A: Tools for grant reviewers include the Bias Reflection Guide and the Grant Reviewer Guide, which provide a step-by-step framework for evaluating grant proposals and mitigating bias.
+
+Q: How can I start a preprint journal club?
+A: To start a preprint journal club, you can use email templates to invite participants and follow the PREreview Clubs Onboarding Document for guidance on setting up your club.
+
+Q: What are Live Reviews, and how are they conducted?
+A: Live Reviews are interactive, topic-centered review calls conducted via video conference. They are designed to collaboratively review preprints. Resources for running a Live Review include a timeline and checklist, information document, registration form template, and communication plan template.
+
+Q: What resources are available to help me run a collaborative Live Review?
+A: Resources for running a collaborative Live Review include the Live Review Timeline & Checklist, Live Reviews Information Document, email templates for authors, a communication plan, and a collaborative writing guide template.
+
+Q: What slide decks and materials are available from PREreview?
+A: Available slide decks include a presentation template about PREreview’s mission and values, a guide for using the PREreview.org platform, and an Arabic guide titled "كيفية استخدام المراجعة المسبقة" for using PREreview.
+
+Q: What kind of video demos are available?
+A: A video demo of the full PREreview publication workflow is available to help users understand how to participate in and contribute to preprint reviews.
+
+Title : live Reviews 
+
+Q: What is a Live Review?
+A: A Live Review is an interactive, topic-centered preprint review conducted via video conference tools like Zoom. The purpose is to have a structured and guided discussion that provides constructive feedback to authors, which can then be integrated into journal review workflows.
+
+Q: Why are Live Reviews important?
+A: Live Reviews aim to support diversity, equity, and inclusion in scholarly peer review by giving a voice to underrepresented experts, especially early-career researchers. They also promote a more collaborative and transparent approach to peer review, delivering timely and actionable feedback to preprint authors.
+
+Q: Who typically participates in a Live Review?
+A: A Live Review includes two facilitators from the PREreview team, a topic expert (optional), preprint authors (optional), and researchers or experts from around the world who join to collaboratively discuss and improve a preprint.
+
+Q: What happens after a Live Review event?
+A: After the Live Review, participants who are interested in writing the review collaborate to summarize the discussion into a PREreview. The final review is published on PREreview.org, and in some cases, it is integrated into the journal’s peer review process.
+
+Q: How do Live Reviews help early-career researchers?
+A: Live Reviews empower early-career researchers by providing them with a platform to participate in peer review, allowing them to network, collaborate with experts, and contribute meaningful feedback that can improve manuscripts.
+
+Q: Can preprint authors participate in Live Reviews?
+A: Yes, preprint authors can optionally join the Live Review to gather live feedback on their preprint from the participants.
+
+Q: What are some outputs of a Live Review?
+A: The main output of a Live Review is a collaboratively authored PREreview that is published on PREreview.org. In some cases, the review can be integrated into journal-organized peer reviews, as with collaborations with JMIR Publications and Current Research in Neurobiology.
+
+Q: How can I request a Live Review for my preprint?
+A: You can request support to run a Live Review or discuss how it could be integrated into your workflow by emailing the PREreview team at community@prereview.org.
+
+Q: What types of journals collaborate with PREreview on Live Reviews?
+A: Current collaborations include work with JMIR Publications and Current Research in Neurobiology to host Live Reviews of preprints submitted to their journals.
+
+Q: What is the role of facilitators in a Live Review?
+A: Facilitators from the PREreview team guide participants through a structured and constructive discussion during the Live Review, ensuring that the feedback is clear, actionable, and aligned with the goals of the review.
+
+Q: How can I find published reviews from Live Review events?
+A: You can find reviews published from Live Review events on PREreview.org, including collaborations with JMIR Publications in the JMIR Publications Club.
+
+Title : Trainings[https://prereview.org/trainings]
+
+What is the workshop fee for a 4-hour session for an organization with annual revenue over $1.5 million USD?
+
+    Answer: $4,000
+
+How much does a 2-hour workshop cost if your organization’s revenue is between $750,000 and $1.5 million USD and is based in an upper middle-income country?
+
+    Answer: $1,000
+
+What are the workshop fees for an organization with annual revenue between $250,000 and $750,000 USD for a 6-hour session?
+
+    Answer: $1,500
+
+If your organization’s revenue is below $250,000 USD and it is based in an IDA country, what would be the fee for a 2-hour workshop?
+
+    Answer: Free**
+
+What is the cost for a 4-hour workshop if the organization’s revenue is between $250,000 and $750,000 USD and it is located in a lower-middle-income country?
+
+    Answer: $1,000
+
+Does an organization in an IDA country with annual revenue less than $250,000 USD have to pay for a 6-hour workshop?
+
+    Answer: Free**
+
+What are the two types of peer review training workshops offered by PREreview?
+
+    Answer: PREreview Open Reviewers (for manuscript reviews) and PREreview Open Grant Reviewers (for grant application reviews).
+
+Who is the target audience for the PREreview workshops?
+
+    Answer: Researchers at all career levels, organizations, institutions, and funding agencies interested in promoting equity and diversity in peer review.
+
+How long is the stand-alone Open Reviewers workshop, and what does it focus on?
+
+    Answer: The stand-alone Open Reviewers workshop is 2 hours long and focuses on open, preprint peer review and recognizing biases in the publication process.
+
+What is the goal of the multi-session Open Reviewers workshop?
+
+    Answer: The multi-session workshops (4-6 hours) offer practical peer review experience and focus on addressing bias and systemic oppression in the manuscript review process, culminating in a Live Review session.
+
+How does the PREreview Open Grant Reviewers workshop help reviewers mitigate bias in grant evaluations?
+
+    Answer: The workshop helps reviewers recognize and mitigate bias by providing strategies, rubrics, and evaluation criteria aimed at reducing subjectivity and promoting transparency and equity in the grant review process.
+
+What collaborative tools are used during PREreview workshops?
+
+    Answer: Collaborative tools such as Mentimeter and shared note-taking are used during the workshops to enhance interactivity and engagement.
+
+How are the PREreview workshops delivered?
+
+    Answer: PREreview workshops are delivered both online and in-person, with flexible formats to accommodate participants' communication and participation styles.
+
+What learning objectives are covered in the 2-hour Open Grant Reviewers workshop?
+
+    Answer: Understanding systems of oppression in the grant review process, strategies to recognize and mitigate bias, best practices for grant evaluation, and creating rubrics to reduce subjectivity.
+
+Is there a pricing model for PREreview workshops, and does it allow more than 30 participants?
+
+    Answer: Yes, pricing applies for up to 30 participants, but additional participants can be added at an extra cost.
+
+What is the significance of addressing bias in peer review, according to PREreview?
+
+    Answer: Addressing bias is crucial as it perpetuates inequities in scholarly publishing, affecting which research gets funded, published, and disseminated to the broader public.
+    
+
+Title : How to use PREreview
+
+Q: How can I start reviewing a preprint on PREreview?
+
+A: To start reviewing a preprint on PREreview, follow these steps:
+
+    Log in to PREreview.org: You need an ORCID iD to sign in.
+    Click the "Review a Preprint" button: Located in the middle of the page, this red button will guide you through the review process.
+    Choose your review format: PREreview offers three types of review formats:
+        Structured PREreview: Provides guided prompts to help with your review.
+        Templated PREreview: Offers a basic framework to follow.
+        Freeform PREreview: A blank text box where you can write your review freely or copy/paste content.
+
+Once your review is complete, you can choose to publish it either with your ORCID iD or a pseudonym that combines an animal and color (e.g., Yellow Penguin), keeping your public name private unless you decide to reveal it later
+
+Q: What is the purpose of PREreview.org?
+A:PREreview.org is an open platform for researchers to publish preprint reviews. It aims to promote collaborative, open reviewing of scientific preprints, and supports communities in conducting reviews to improve the quality of research before publication. For more information, visit the platform’s resources [here](https://zenodo.org/records/10372433).
+
+Q: How can I log in to PREreview.org?
+A: You can log in to PREreview.org using your ORCID iD. Once logged in, you can access your profile, review settings, and start reviewing preprints. More details are available [here](https://zenodo.org/records/10372433)
+
+Q: What are the review formats available on PREreview?
+A: PREreview offers three types of review formats:
+    - Structured PREreview: Guides you through specific prompts.
+    - Templated PREreview: Provides a basic framework for your review.
+    - Freeform PREreview: A blank text box where you can type freely or paste content. To explore these options, check [here](https://zenodo.org/records/10372433).
+
+Q: What personal information is visible when I submit a review?
+A: You can choose to publish a review with either your public name (linked to your ORCID iD) or a pseudonym (a random combination of an animal and a color, e.g., "Yellow Penguin"). If you choose the pseudonym, your public name will remain hidden unless you choose to disclose it. Learn more [here](https://zenodo.org/records/10372433)
+
+Q: What features are available for editing my profile on PREreview?
+A: After logging in with your ORCID iD, you can visit the "My details" page to edit your profile. You can choose which parts of your profile are visible to others and preview both your public and pseudonymous profiles. See further information [here](https://zenodo.org/records/10372433)
+
+Q: What is the purpose of Live Review calls on PREreview?
+A: Live Review calls are facilitated sessions for groups of researchers who want to improve their collaborative review skills. These calls can be organized for institutions or groups of individuals. More details can be found [here](https://zenodo.org/records/10372433)
+
+Q: How do PREreview Clubs work?
+A: PREreview Clubs are collaborative groups formed around a shared affiliation, interest, or location. They focus on conducting group preprint reviews. You can learn how to start your own club by visiting the platform’s resources [here](https://zenodo.org/records/10372433)
+
+Q: How can I access community-published PREreviews?
+A: You can browse the most recent community-published PREreviews on the platform. Filtering and search features are continuously being improved for easier navigation. Check it out [here](https://zenodo.org/records/10372433).
+
+Q: What training does PREreview offer?
+A: PREreview provides Open Reviewers training programs to help researchers develop their reviewing skills. Institutions can also arrange workshops, and individual researchers can participate in these programs. To learn more, visit [here](https://zenodo.org/records/10372433).
+
+Q: How does PREreview ensure user privacy and anonymity?
+A: PREreview staff can access users' identities in case of a Code of Conduct violation. However, the platform ensures that pseudonyms are kept private unless there is a need for communication or account suspension due to a violation. They never share pseudonyms unless required. Read more about privacy policies [here](https://zenodo.org/records/10372433).
+
+Q: How can institutions participate in Live Reviews on PREreview? 
+A: Institutions can organize Live Review calls through PREreview’s facilitation services. These calls are paid services, and more details are available [here](https://zenodo.org/records/10372433).
+
+Q: What is included in the PREreview footer?  
+A: The footer on PREreview’s website includes important links such as the platform’s Code of Conduct, EDI (Equity, Diversity, and Inclusion) statement, access to their Slack community, GitHub repository, and other helpful resources. Visit the footer information [here](https://zenodo.org/records/10372433).
+
+Q: How do I get started on writing a preprint review on PREreview?
+A: To start a review, log in with your ORCID iD and click the "Review a Preprint" button on the homepage. From there, you will be guided through a workflow to complete your review using one of the three review formats: Structured, Templated, or Freeform. More details are available [here](https://zenodo.org/records/10372433).
+
+Q: What are the key sections of the PREreview website?
+A: The PREreview website includes sections such as Blog (for updates and announcements), About (to learn about the platform’s mission), Reviews (to browse community-published reviews), Trainings (to learn about their programs), and Clubs (for collaborative review groups). More information can be found [here](https://zenodo.org/records/10372433).

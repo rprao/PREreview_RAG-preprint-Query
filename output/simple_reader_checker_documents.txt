@@ -1,0 +1,7259 @@
+Estado da publicação: Não informado pelo autor submissor
+POLÍTICAS DE RESÍDUOS SÓLIDOS ORGÂNICOS E RESILIÊNCIA
+SOCIOAMBIENTAL: ESTUDO DAS CAPACIDADES DE GESTÃO DE
+MUNICÍPIOS BRASILEIROS
+Raissa Ribeiro, Cristine Santiago, Lucas Santana
+https://doi.org/10.1590/SciELOPreprints.9899
+Submetido em: 2024-09-12
+Postado em: 2024-09-16 (versão 1)
+(AAAA-MM-DD)
+Powered by TCPDF (www.tcpdf.org)
+POLÍTICAS
+DE
+RESÍDUOS
+SÓLIDOS
+OR GÂNICOS
+E
+RESILIÊNCIA 
+SOCIO AMBIENT AL:
+ESTUDO
+D AS
+CAP ACID ADES
+DE
+GESTÃO
+DE
+MUNICÍPIOS 
+BRASILEIR OS 
+ 
+  
+LUCAS
+B ARBOSA
+DE
+SANT AN A, 
+OR CID:
+https://orcid.org/0000-0001-8270-8456
+<
+lucas.barbosa@unesp .br> 
+F aculdade
+Ciências
+e
+Letras
+de
+Araraquara
+UNESP/FCLAr .
+Araraquara,
+SP ,
+Brasil
+CRISTINE
+DINIZ
+SANTIAGO , 
+OR CID:
+https://orcid.org/0000-0003-0928-118X 
+<cristine.dis@gmail.com> 
+Instituto
+de
+P esquisa
+Econômica
+Aplicada
+(Ipea)
+/
+Uni v er sidade
+F ederal
+de
+São
+Car los 
+(UFSCar).
+São
+Car los,
+SP ,
+Brasil
+RAISSA
+CAR V ALHO
+RIBEIR O , 
+OR CID:
+https://orcid.org/0000-0002-3771-0191
+<
+rc .ribeir o@unesp .br> 
+F aculdade
+Ciências
+e
+Letras
+de
+Araraquara
+UNESP/FCLAr .
+Araraquara,
+SP ,
+Brasil 
+  
+RESUMO:
+O
+ponto
+central
+deste
+estudo
+consiste
+em
+analisar
+a
+gestão
+de
+resíduos
+sólidos
+por
+parte 
+de
+dois
+municípios
+brasileiros ,
+a
+fim
+de
+obser var
+a
+efetiva
+capilaridade
+institucional,
+política
+e 
+econômica
+presente
+nesses
+entes
+que
+viabilizem
+a
+gestão
+de
+resíduos
+sólidos
+confor me
+estabelecido 
+pela
+Política
+Nacional
+de
+Resíduos
+Sólidos
+(PNRS),
+Lei
+12.305/2010.
+Tais
+aspectos
+serão 
+investigados
+verificando
+seus
+princípios
+centrais
+de
+não
+geração ,
+redução ,
+responsabilidade 
+compar tilhada
+e
+destinação
+final
+ambientalmente
+adequada
+para
+os
+Resíduos
+Sólidos
+Urbanos 
+(RSU),
+com
+foco
+na
+fração
+orgânica
+dos
+resíduos
+sólidos .
+Pretende-se ,
+portanto ,
+investigar
+as 
+políticas
+e
+ações
+desen volvidas
+e
+compará-las ,
+a
+fim
+de
+identificar
+fragilidades
+e
+potencialidades ,
+bem 
+como
+capacidades
+que
+avalizem
+o
+quadro
+obser vado. 
+ 
+P ala vras-cha v e:
+políticas
+públicas ,
+gestão
+de
+resíduos
+sólidos ,
+resíduos
+sólidos
+orgânicos , 
+capacidades
+estatais ,
+planejamento
+municipal.  
+  
+  
+OR GANIC
+SOLID
+W ASTE
+POLICIES
+AND
+SOCIO-ENVIR ONMENT AL 
+RESILIENCE:
+A
+STUD Y
+OF
+THE
+MAN AGEMENT
+CAP ACITIES
+OF
+BRAZILIAN 
+MUNICIP ALITIES
+ 
+ 
+  
+ABSTRACT :
+The
+central
+focus
+of
+this
+study
+is
+to
+analyze
+the
+solid
+waste
+manag ement
+of
+two 
+Brazilian
+municipalities ,
+in
+order
+to
+obser ve
+the
+effecti ve
+institutional,
+political,
+and
+economic
+reach 
+within
+these
+entities
+that
+enable
+solid
+waste
+manag ement
+in
+accordance
+with
+the
+National
+Solid 
+Waste
+Policy
+(PNRS),
+Law
+12.305/2010.
+These
+aspects
+will
+be
+investigated
+by
+examining
+its
+core 
+principles
+of
+non-g eneration,
+reduction,
+shared
+responsibility ,
+and
+environmentally
+appropriate
+final 
+disposal
+of
+Urban
+Solid
+Waste
+(USW),
+with
+a
+focus
+on
+the
+organic
+fraction
+of
+solid
+waste.
+The
+aim,SciELO Preprints - Este documento é um preprint e sua situação atual está disponível em: https://doi.org/10.1590/SciELOPreprints.9899
+2
+therefore ,
+is
+to
+investigate
+the
+policies
+and
+actions
+developed,
+and
+to
+compare
+them
+in
+order
+to 
+identify
+weaknesses
+and
+strengths ,
+as
+well
+as
+the
+capacities
+that
+suppor t
+the
+obser ved
+framew ork.   
+ 
+K eyw ords
+:
+public
+policy ,
+waste
+manag ement,
+organic
+waste,
+state
+capacities ,
+municipal
+planning .  
+ 
+INTR ODUÇÃO
+ 
+Diferentes
+escopos
+analíticos
+no
+âmbito
+das
+políticas
+públicas
+apontam
+para
+a
+necessidade
+de 
+garantia
+de
+um
+aparato
+institucional,
+além
+de
+recursos
+financeiros ,
+para
+a
+operacionalização
+e 
+materialização
+de
+políticas
+nos
+mais
+diversos
+setores .
+(Cing olani,
+2013;
+Capella,
+2007;
+Weber,
+1999). 
+A
+análise
+das
+capacidades
+de
+gestão
+do
+Estado
+passa
+por
+uma
+miríade
+de
+atores
+e
+processos
+que 
+devem
+ser
+criteriosamente
+obser vados,
+a
+fim
+de
+identificar
+as
+reais
+condições
+de
+implementar 
+políticas
+públicas ,
+de
+acordo
+com
+a
+literatura
+pertinente .
+A
+própria
+dimensão
+da
+capacidade
+do
+Estado
+em
+gerir
+políticas
+passa
+por
+uma
+série
+de 
+considerações
+e
+incrementos
+com
+o
+avanço
+dos
+estudos
+sobre
+esse
+campo
+teórico .
+Desde
+a
+vertente 
+neomarxista
+com
+a
+compreensão
+das
+instituições
+governamentais
+como
+agentes
+efetivamente 
+centrais
+e
+preponderantes
+na
+dominação
+de
+classes ,
+a
+perspecti va
+da
+atuação
+do
+Estado
+vêm 
+tomando
+formas
+distintas ,
+mas
+estabelecendo
+uma
+linha
+comum:
+a
+centralidade
+da
+atuação
+do 
+aparato
+estatal
+na
+execução
+de
+políticas
+públicas
+(Offe ,
+1972;
+Capella,
+2007;
+Cingolani,
+2013).
+Seguindo
+essa
+perspecti va
+teórica,
+a
+profissionalização
+da
+burocracia
+estatal
+e
+o
+aparato 
+técnico
+e
+administrati vo
+das
+instituições
+públicas
+são
+fatores
+relevantes
+para
+a
+devida
+articulação 
+entre
+o
+planejamento
+e
+a
+efetiva
+execução
+de
+políticas
+públicas .
+Tal
+método ,
+alinha-se
+ao
+pensamento 
+Weberiano
+no
+que
+tange
+à
+qualidade
+da
+burocracia
+pública
+e
+sua
+dimensão
+estrutural, 
+evidenciando-se
+a
+necessidade
+de
+atributos
+significati vos
+para
+que
+o
+êxito
+na
+implementação
+seja 
+maior
+(Weber,
+1999;
+Cingolani,
+2013).
+Dessa
+forma,
+o
+presente
+estudo
+apresenta
+um
+panorama
+analítico
+sobre
+a
+gestão
+de
+resíduos 
+sólidos
+orgânicos
+em
+dois
+municípios
+médios
+brasileiros ,
+destacados
+por
+sua
+relevante
+atuação
+no 
+setor :
+Camaçari
+-
+Bahia
+e
+Araraquara
+-
+São
+Paulo.
+É
+evidente
+na
+atualidade
+um
+crescente
+debate 
+relacionado
+às
+questões
+ambientais ,
+sobretudo
+atrelado
+ao
+consumo
+e
+produções
+mais
+sustentáv eis. 
+Nesse
+cenário ,
+encontra-se
+a
+questão
+dos
+Resíduos
+Sólidos
+Urbanos
+(RSU)
+que
+na
+agenda
+brasileira 
+recebe
+destaque
+a
+partir
+da
+prom ulgação,
+em
+2010,
+da
+Política
+Nacional
+de
+Resíduos
+Sólidos
+(PNRS), 
+Lei
+12.305/2010.
+As
+ações
+previstas
+na
+PNRS
+versam
+sobre
+a
+não
+geração ,
+redução ,
+reutilização , 
+reciclag em
+e
+tratamento
+de
+resíduos
+e
+disposição
+final
+ambientalmente
+adequada
+para
+os
+rejeitos . 
+Além
+disso ,
+o
+normativo
+aponta
+para
+a
+necessidade
+de
+planejamento
+municipal
+para
+a
+aplicabilidade 
+da
+política
+nas
+realidades
+locais .
+Nesse
+sentido ,
+pretende-se ,
+neste
+artigo:
+(i)
+caracterizar
+a
+gestão
+de
+Resíduos
+Sólidos 
+Urbanos ,
+com
+foco
+na
+fração
+orgânica,
+nos
+dois
+municípios
+médios
+brasileiros
+selecionados
+e
+(ii) 
+avaliar
+sua
+confor midade
+com
+a
+PNRS ,
+além
+de
+(iii)
+sublinhar
+as
+características
+centrais
+da
+gestão
+de 
+resíduos
+dos
+municípios
+investigados,
+de
+acordo
+com
+a
+perspecti va
+teórica
+das
+capacidades
+estatais 
+(Weber,
+1999;
+Gomide
+e
+Pires ,
+2014),
+a
+partir
+dos
+dados
+referentes
+à
+capacitação
+da
+burocracia 
+pública
+bem
+como
+da
+infraestr utura
+institucional
+dos
+órgãos
+responsáv eis
+pela
+política
+de
+resíduos 
+sólidos
+orgânicos
+nos
+municípios
+de
+Araraquara-SP
+e
+Camaçari
+-
+BA.SciELO Preprints - Este documento é um preprint e sua situação atual está disponível em: https://doi.org/10.1590/SciELOPreprints.9899
+3
+Trata-se
+de
+um
+estudo
+comparado ,
+contando
+com
+análise
+documental
+em
+publicações 
+diversas
+relacionadas
+ao
+planejamento
+e
+gestão
+do
+setor ,
+além
+da
+pesquisa
+bibliog ráfica,
+visando 
+embasar
+cientificamente
+as
+análises
+realizadas .
+Dessa
+forma,
+o
+presente
+estudo
+estrutura-se
+a
+partir
+de
+quatro
+seções
+centrais ,
+além
+de
+sua 
+introdução
+e
+considerações
+finais ,
+nas
+quais
+serão
+apresentadas:
+as
+capacidades
+de
+gestão
+de
+resíduos 
+sólidos
+em
+Araraquara
+-
+SP
+e
+Camaçari
+-
+BA,
+sob
+o
+prisma
+teórico
+das
+capacidades
+do
+Estado;
+as 
+interfaces
+da
+gestão
+de
+resíduos
+sólidos
+nestes
+municípios
+com
+a
+PNRS;
+além
+de
+uma
+seção 
+específica
+sobre
+a
+gestão
+de
+resíduos
+sólidos
+em
+Araraquara
+e
+outra
+acerca
+de
+Camaçari.
+  
+CAP ACID ADES
+DE
+GESTÃO
+DE
+RESÍDUOS
+SÓLIDOS
+EM
+ARARAQU ARA
+-
+SP
+E 
+CAMAÇARI
+-
+B A  
+ 
+Sob
+a
+corrente
+teórica
+das
+capacidades
+estatais ,
+a
+dimensão
+weberiana
+é
+a
+mais
+difundida
+nos 
+estudos
+das
+ciências
+sociais
+contemporâneas
+e,
+sobretudo ,
+na
+ciência
+política.
+Tal
+cenário
+nos
+leva
+à 
+abordag em
+teórica
+e
+metodológica
+adotada
+no
+presente
+estudo ,
+a
+qual
+considera
+as
+capacidades 
+estatais
+para
+gerir
+políticas
+públicas
+as
+reais
+condições
+da
+burocracia
+pública
+especializada,
+bem 
+como
+a
+infraestr utura
+institucional
+dos
+municípios
+(Weber,
+1999;
+Gomide
+e
+Pires ,
+2014;
+Santana
+e 
+Orsi,
+2023).
+As
+capacidades
+do
+Estado
+são,
+portanto ,
+elementos-c have
+na
+análise
+que
+o
+presente
+trabalho 
+desen volve,
+trazendo
+à
+luz
+dois
+pontos
+relevantes ,
+pois
+“considers
+state
+capacity
+to
+be
+equated
+to
+the 
+implementation
+power
+of
+the
+state,
+a
+task
+that
+falls
+inherently
+under
+the
+bureaucracy
+and
+is
+as 
+impor tant
+as
+decision-making
+1
+”
+(Geddes ,
+1994,
+p.181).
+Primeiramente ,
+no
+que
+diz
+respeito
+às 
+características
+da
+burocracia
+pública
+dos
+municípios
+analisados ,
+sobretudo
+quanto
+ao
+seu
+vínculo
+de 
+trabalho
+e
+as
+capacitações
+fornecidas
+pela
+administração
+municipal.
+Um
+segundo
+tópico
+são
+as 
+condições
+institucionais
+para
+execução
+da
+PNRS
+nessas
+cidades .
+Tais
+infor mações
+serão 
+apresentadas
+a
+partir
+de
+dados
+do
+IBGE.
+Dessa
+maneira,
+será
+possív el
+averiguar
+as
+reais
+condições 
+para
+a
+gestão
+de
+políticas
+no
+setor ,
+uma
+vez
+que
+“This
+implementation
+power
+depends
+on
+the 
+possibility
+to
+count
+on
+a
+politically-insulated
+bureaucracy
+2
+”
+(Geddes ,
+1994,
+p.181).
+Cabe
+reiterar
+que
+os
+municípios
+analisados
+se
+enquadram
+na
+classificação
+de
+cidade
+média
+do 
+IBGE.
+Araraquara
+com
+cerca
+de
+248.228
+habitantes ,
+localizada
+na
+região
+central
+do
+estado
+de
+São 
+Paulo,
+região
+sudeste
+do
+país.
+Camaçari,
+com
+300.372
+habitantes ,
+no
+litoral
+do
+estado
+da
+Bahia, 
+região
+nordeste
+do
+Brasil
+(IBGE,
+2022).
+Para
+além
+disso ,
+a
+escolha
+desses
+municípios
+como
+unidade 
+de
+análise
+se
+justifica
+a
+partir
+da
+impor tância
+de
+se
+obser var
+o
+cumprimento
+das
+diretrizes
+impostas 
+pela
+PNRS ,
+dimensão
+abordada
+e
+incenti vada
+pela
+política
+que
+prevê
+a
+elaboração
+de
+Planos 
+Municipais
+de
+Resíduos
+Sólidos
+como
+ferramentas
+de
+aplicabilidade
+da
+política.
+Por
+fim,
+os 
+municípios
+foram
+selecionados
+em
+duas
+macro
+regiões
+distintas
+do
+país,
+levando
+em
+consideração
+a 
+atuação
+dessas
+cidades
+na
+gestão
+de
+resíduos
+sólidos .
+2
+Esse
+poder
+de
+implementação
+depende
+da
+possibilidade
+de
+contar
+com
+uma
+burocracia
+politicamente
+isolada,
+em 
+tradução
+livre.
+1
+considera
+que
+a
+capacidade
+estatal
+equivale
+ao
+poder
+de
+implementação
+do
+Estado,
+uma
+tarefa
+que
+recai
+inerentemente 
+sobre
+a
+burocracia
+e
+é
+tão
+importante
+quanto
+a
+tomada
+de
+decisões,
+em
+tradução
+livre.SciELO Preprints - Este documento é um preprint e sua situação atual está disponível em: https://doi.org/10.1590/SciELOPreprints.9899
+4
+Na
+tabela
+abaix o,
+verifica-se
+a
+quantidade
+de
+servidores
+públicos
+vinculados
+à
+prefeitura
+de 
+Camaçari
+-
+BA,
+onde
+a
+porcentag em
+de
+estáv eis
+ating e
+a
+média
+de
+75%,
+valor
+significati vamente 
+acima
+da
+média
+nacional
+(61%).
+Esse
+dado
+indica
+que
+a
+vinculação
+desses
+funcionários
+permite
+uma 
+atuação
+mais
+técnica
+e
+com
+menores
+ruídos
+e
+instabilidades ,
+sobretudo
+em
+cenários
+de
+variações 
+relevantes
+no
+contexto
+político
+e
+social.
+Tabela
+1:
+Vínculo
+dos
+servidores
+municipais
+em
+Camaçari
+-
+BA.
+Fonte
+dos
+dados:
+IBGE,
+2021.
+Elaboração:
+Os
+autores ,
+2024.
+Confor me
+elencado
+anterior mente ,
+a
+característica
+central
+na
+delimitação
+das
+capacidades
+em 
+implementar
+políticas
+públicas
+está
+atrelada
+a
+uma
+burocracia
+qualificada
+e
+com
+significati va 
+estabilidade
+funcional.
+Nesse
+sentido ,
+elencamos
+na
+tabela
+2
+infor mações
+complementares
+sobre
+a 
+estrutura
+institucional
+da
+Secretaria
+Municipal
+de
+Meio
+Ambiente
+de
+Camaçari
+-
+BA,
+que
+possui
+uma 
+articulação
+com
+outros
+órgãos . 
+Embora
+a
+literatura
+aponte
+para
+a
+relevância
+de
+secretarias
+exclusivas,
+devido
+à
+maior 
+dedicação
+aos
+assuntos
+do
+setor ,
+no
+caso
+obser vado
+em
+Camaçari,
+evidencia-se
+uma
+atuação 
+consolidada
+do
+órgão
+na
+área
+do
+meio
+ambiente .
+Os
+dados
+apresentados
+indicam
+significati va 
+consistência
+infraestr utural
+para
+o
+desen volvimento
+de
+políticas
+de
+resíduos
+sólidos . 
+Tabela
+2:
+Características
+Institucionais
+da
+Secretaria
+de
+Meio
+Ambiente
+de
+Camaçari
+-
+BA.
+Fonte
+dos
+dados:
+IBGE,
+2021.
+Elaboração:
+Os
+autores ,
+2024.
+Pode-se
+obser var
+que,
+no
+que
+tange
+à
+infraestr utura
+física,
+tanto
+a
+secretaria
+quanto
+os 
+conselhos
+gestores
+do
+meio
+ambiente
+dispõem
+de
+recursos
+oferecidos
+pelo
+município
+para
+o 
+desen volvimento
+de
+suas
+atividades . 
+No
+âmbito
+da
+legislação
+municipal,
+os
+dados
+se
+referem
+a
+onze
+itens
+centrais ,
+dentre
+eles 
+instrumentos
+normativos/leg ais
+para
+coleta
+de
+resíduos
+sólidos
+domiciliares ,
+zonas
+de
+proteção
+e 
+controle
+ambiental,
+itens
+e
+embalag ens
+de
+agrotóxicos ,
+florestas ,
+biodi versidade ,
+mudanças 
+climáticas ,
+dentre
+outros .
+Nesse
+tópico ,
+vê-se
+que
+a
+cidade
+de
+Camaçari
+ating e
+um
+percentual
+de
+73%
+3
+Política
+Municipal
+de
+Resíduos
+Sólidos
+Urbanos
+Camaçari
+Estatutários
+Celetistas
+Comissionados
+Estagiários
+Sem
+Vínculo
+Total
+Total
+Estáveis
+5497
+0
+1396
+0
+464
+7357
+75%
+Camaçari
+Infraestrutura
+Legislação
+Ambiental
+PMRSU
+3
+Capacitação
+Sim
+73%
+Sim
+OcasionalmenteSciELO Preprints - Este documento é um preprint e sua situação atual está disponível em: https://doi.org/10.1590/SciELOPreprints.9899
+5
+quanto
+à
+existência
+de
+legislação
+ou
+instrumentos
+ambientais
+para
+esses
+setores ,
+considerados 
+basilares
+no
+desen volvimento
+socioambiental. 
+A
+capacitação
+dos
+burocratas
+vinculados
+à
+secretaria
+municipal
+de
+meio
+ambiente
+de 
+Camaçari,
+bem
+como
+a
+existência
+de
+uma
+política
+específica
+para
+os 
+resíduos
+sólidos
+urbanos , 
+mostram-se
+como
+impor tantes
+instrumentos ,
+ainda
+que
+pouco
+presentes
+nos
+municípios
+brasileiros . 
+Analog amente ,
+a
+característica
+central
+obser vada
+no
+município
+de
+Araraquara
+é
+que
+a
+maior 
+parte
+dos
+servidores
+da
+cidade
+são
+estáv eis,
+ou
+seja,
+vinculados
+de
+forma
+permanente
+à 
+administração
+pública.
+Esse
+aspecto
+indica
+a
+estabilidade
+considera velmente
+alta
+dos
+funcionários ,
+o 
+que
+indica,
+de
+acordo
+com
+a
+literatura
+indicada,
+melhores
+condições
+para
+a
+execução
+de
+políticas 
+públicas .
+(Weber,
+1999;
+Cingolani,
+2013;
+Gomide
+e
+Pires ,
+2014).
+A
+porcentag em
+de
+80%,
+pouco 
+maior
+do
+que
+a
+obser vada
+em
+Camaçari,
+também
+se
+estabelece
+considera velmente
+acima
+da
+média 
+nacional,
+que
+durante
+o
+ano
+de
+2021
+era
+de
+61%
+(IBGE,
+2021). 
+Tabela
+3:
+Vínculo
+dos
+servidores
+municipais
+em
+Araraquara
+-
+SP
+Araraquara 
+ 
+Estatutário
+Celetista
+Comissionados
+Estagiários
+Sem
+Vínculo
+Total
+Total
+Estáveis
+43
+6288
+94
+112
+28
+6565
+80%
+Fonte
+dos
+dados:
+IBGE,
+2021.
+Elaboração:
+Os
+autores ,
+2024.  
+Novamente ,
+aspectos
+relevantes
+para
+a
+gestão
+de
+políticas
+se
+mostram
+presentes
+na
+estrutura 
+administrati va
+da
+área
+de
+meio
+ambiente ,
+neste
+caso
+no
+município
+de
+Araraquara.
+Percebe-se ,
+numa 
+leitura
+apriorística,
+dados
+similares
+aos
+de
+Camaçari.
+Essas
+infor mações
+corroboram
+a
+perspecti va
+de 
+existência
+de
+condições
+institucionais
+para
+a
+efetividade
+das
+ações
+ambientais
+nesses
+municípios . 
+As
+condições
+infra
+estruturais
+estão
+presentes
+com
+a
+disponibilização
+de
+materiais
+e 
+instrumentos
+aos
+conselhos
+gestores
+de
+políticas
+ambientais
+no
+município
+de
+Araraquara,
+bem
+como 
+a
+garantia
+dos
+insumos
+e
+materiais
+necessários
+para
+as
+atividades . 
+A
+legislação
+ambiental
+ating e
+também
+a
+marca
+superior
+a
+70%,
+considerando
+a
+existência
+de 
+parâmetros
+normativos,
+em
+âmbito
+municipal,
+que
+versam
+sobre
+diversas
+áreas ,
+tais
+como
+a
+fauna 
+silvestre,
+a
+flora,
+os
+recursos
+hídricos ,
+a
+mitig ação
+das
+mudanças
+climáticas ,
+proteção
+da 
+biodi versidade ,
+dentre
+outros . 
+Tabela
+4:
+Características
+Institucionais
+da
+Secretaria
+de
+Meio
+Ambiente
+de
+Araraquara
+-
+SP
+Araraquara 
+ 
+Infraestrutura
+Legislação
+Ambiental
+PMRSU
+Capacitação
+Sim
+73%
+Sim
+Ocasionalmente
+Fonte
+dos
+dados:
+IBGE,
+2021.
+Elaboração:
+Os
+autores ,
+2024.   SciELO Preprints - Este documento é um preprint e sua situação atual está disponível em: https://doi.org/10.1590/SciELOPreprints.9899
+6
+A
+existência
+de
+uma
+política
+municipal
+de
+resíduos
+sólidos
+urbanos
+também
+pode
+ser 
+verificada
+no
+município ,
+com
+sua
+criação
+em
+meados
+de
+2015,
+o
+que
+indica
+também
+certa
+maturidade 
+da
+política,
+que
+perpassa
+3
+administrações ,
+sendo
+uma
+do
+MDB
+4
+e
+duas
+do
+PT
+5
+na
+cidade . 
+Conjuntamente ,
+a
+capacitação
+dos
+servidores
+e
+dos
+atores
+dos
+órgãos
+de
+gestão
+das
+políticas 
+ambientais
+se
+mostra
+como
+iniciati va
+presente ,
+o
+que
+indica
+um
+possív el
+aprofundamento
+nas 
+demandas
+e
+na
+atuação
+desses
+grupos
+em
+políticas
+públicas
+ambientais . 
+Os
+dados
+apresentados
+indicam
+a
+presença
+de
+capacidades
+para
+gestão
+de
+políticas 
+ambientais
+em
+ambos
+os
+municípios .
+Nesse
+sentido ,
+serão
+analisados
+os
+planos
+de
+gestão
+de
+resíduos 
+nessas
+localidades ,
+sua
+capilaridade
+e
+distinções ,
+alicerçados
+às
+condições
+burocráticas
+e
+infra 
+estruturais
+municipais . 
+A
+POLÍTICA
+N ACION AL
+DE
+RESÍDUOS
+SÓLIDOS
+E
+A
+GESTÃO
+E
+RESÍDUOS 
+SÓLIDOS
+EM
+ARARAQU ARA
+––
+SP
+E
+CAMAÇARI
+––
+B A
+No
+contexto
+brasileiro ,
+destacam-se
+dois
+marcos
+legais
+em
+relação
+ao
+meio
+ambiente:
+(i)
+o 
+artigo
+225
+da
+Constituição
+Federal
+de
+1988:
+“Todos
+têm
+direito
+ao
+meio
+ambiente
+ecologicamente 
+equilibrado ,
+bem
+de
+uso
+comum
+do
+povo
+e
+essencial
+à
+sadia
+qualidade
+de
+vida,
+impondo-se
+ao
+Poder 
+Público
+e
+à
+coleti vidade
+o
+dever
+de
+defendê-lo
+e
+preser vá-lo
+para
+as
+presentes
+e
+futuras
+gerações”, 
+alicerce
+de
+toda
+a
+legislação
+ambiental
+brasileira;
+e
+(ii)
+a
+Política
+Nacional
+do
+Meio
+Ambiente ,
+Lei
+nº 
+6.938/1981,
+responsáv el
+pela
+mudança
+de
+paradigma
+na
+conjuntura
+ambiental
+brasileira, 
+estabelecendo
+a
+estrutura
+seguida
+posterior mente
+pela
+PNRS
+(Brollo
+&
+Silva,
+2001;
+Brasil,
+1988).
+Considerando
+os
+Resíduos
+Sólidos
+como
+uma
+esfera
+do
+saneamento
+básico ,
+obser va-se
+no 
+país
+que
+esse
+componente
+não
+foi
+devidamente
+considerado
+até
+décadas
+recentes .
+Na
+década
+de 
+1980,
+as
+dificuldades
+na
+disposição
+dos
+resíduos
+sólidos
+passam
+a
+ter
+maior
+centralidade
+na
+agenda 
+dos
+poderes
+públicos
+locais ,
+tanto
+pelos
+impactos
+ambientais
+da
+disposição
+inadequada
+em
+lixões , 
+quanto
+pela
+dificuldade
+de
+encontrar
+áreas
+de
+disposição ,
+tendo
+em
+vista
+a
+expansão
+das
+malhas 
+urbanas
+(Neto
+&
+Moreira,
+2010).
+Ainda
+que
+a
+temática
+ganhasse
+espaço
+na
+agenda
+pública,
+questões
+associadas
+à
+insuficiente 
+capacitação
+no
+campo
+dos
+resíduos
+sólidos ,
+bem
+como
+os
+dimin utos
+recursos
+municipais
+destinados 
+ao
+setor
+inviabilizaram
+maiores
+avanços
+até
+a
+prom ulgação
+do
+marco
+nacional,
+em
+2010.
+A
+Política
+Nacional
+de
+Resíduos
+Sólidos
+foi
+prom ulgada
+após
+mais
+de
+duas
+décadas
+de 
+discussão
+no
+legislati vo.
+Este
+longo
+trâmite
+é
+consequência
+da
+diversidade
+e
+amplitude
+do
+tema
+e, 
+consequentemente ,
+da
+diversidade
+e
+amplitude
+de
+atores
+envolvidos
+com
+interesses
+diversos ,
+por 
+vezes
+conflitantes .
+Nesse
+contexto
+a
+PNRS
+passa
+a
+ocupar
+uma
+significati va
+lacuna,
+com
+a
+característica
+de
+ser 
+um
+marco
+regulatório
+integ rado
+que
+apresenta
+os
+princípios
+que
+servirão
+de
+base
+para
+a
+elaboração 
+da
+estratégia
+nacional
+frente
+à
+questão
+dos
+resíduos
+sólidos ,
+anterior mente
+fruto
+de
+regulamentações 
+múltiplas
+e
+nem
+sempre
+consonantes .
+Complementar mente ,
+a
+PNRS
+apresenta
+as
+diretrizes
+que
+os
+5
+Partido
+dos
+Trabalhadores.
+4
+Movimento
+Democrático
+Brasileiro.SciELO Preprints - Este documento é um preprint e sua situação atual está disponível em: https://doi.org/10.1590/SciELOPreprints.9899
+7
+atores
+envolvidos
+devem
+obser var
+rumo
+a
+maior
+sustentabilidade
+da
+gestão
+de
+resíduos
+sólidos 
+nacional
+(Godo y,
+2013;
+Ogera
+e
+Phillipi
+Jr.,
+2005;
+Neto
+e
+Moreira,
+2010).
+Após
+mais
+de
+uma
+década
+da
+prom ulgação
+da
+PNRS ,
+foram
+obser vadas
+relevantes
+evoluções 
+na
+gestão
+de
+resíduos
+sólidos
+na
+escala
+nacional,
+mas
+ainda
+há
+um
+longo
+caminho
+no
+enfrentamento 
+a
+questões
+como
+o
+encer ramento
+e
+recuperação
+dos
+lixões
+em
+atividade ,
+a
+consolidação
+de
+bases
+de 
+dados
+e
+o
+fortalecimento
+do
+planejamento ,
+sobretudo
+municipal,
+uma
+vez
+que
+apenas
+52%
+dos 
+municípios
+elaboraram
+seus
+planos
+de
+resíduos
+sólidos
+(Santiag o
+et
+al.,
+2023).
+Complementar mente ,
+obser vam-se
+entra ves
+centrais
+na
+implementação
+da
+política,
+o
+que 
+relaciona-se
+à
+indefinição
+e
+insuficiência
+das
+capacidades
+estatais
+responsáv eis
+por
+sua 
+implementação ,
+como
+analisado
+por
+Santiag o
+(2021).
+Nesse
+sentido ,
+temáticas
+como
+a
+gestão
+dos 
+resíduos
+sólidos
+orgânicos
+demandam
+maior
+espaço
+na
+agenda
+(Santiag o,
+2024).
+Os
+resíduos
+orgânicos
+representam
+aproximadamente
+metade
+da
+massa
+de
+resíduos
+sólidos 
+gerados
+nos
+domicílios
+brasileiros ,
+mas
+as
+experiências
+de
+gestão
+desta
+fração
+específica
+ainda
+são 
+incipientes
+no
+país.
+Parte
+deste
+problema
+ocorre
+devido
+a
+seu
+descar te
+usual
+junto
+aos
+demais 
+resíduos
+-
+recicláv eis
+não
+destinados
+à
+coleta
+seleti va,
+rejeitos
+e
+até
+mesmo
+resíduos
+perig osos
+-,
+o 
+que
+dificulta
+e
+mesmo
+inviabiliza
+seu
+tratamento
+e
+reinserção
+nos
+ciclos
+produti vos
+(Massukado , 
+2008;
+Massukado
+et
+al.,
+2013).
+Nesse
+contexto ,
+a
+seguir
+serão
+analisados
+os
+casos
+de
+Araraquara-SP
+e
+Camaçari-B A
+em 
+relação
+à
+gestão
+de
+resíduos
+sólidos ,
+com
+particular
+atenção
+à
+fração
+orgânica,
+tendo
+em 
+consideração
+que
+ambos
+os
+municípios
+possuem
+institucionalidade
+e
+capacidades
+estatais
+acima
+da 
+média
+nacional
+na
+área
+ambiental.
+GESTÃO
+DE
+RESÍDUOS
+SÓLIDOS
+EM
+ARARAQU ARA
+––
+SP
+A
+cidade
+de
+Araraquara
+é
+caracterizada
+como
+uma
+cidade
+média
+brasileira,
+localizada
+no 
+interior
+do
+Estado
+de
+São
+Paulo,
+com
+248.228
+habitantes
+e
+atividades
+econômicas
+voltadas
+para
+o 
+setor
+agroindustrial.
+Para
+o
+cumprimento
+das
+diretrizes
+de
+gestão
+de
+RSU,
+o
+município
+se
+destaca 
+pela
+atuação
+da
+autar quia
+DAAE
+(Departamento
+Autônomo
+de
+Água
+e
+Esgoto),
+além
+de
+possuir
+um 
+Plano
+Municipal
+de
+Gestão
+Integ rada
+de
+Resíduos
+Sólidos
+(PMGIRS)
+integ rado
+ao
+Plano
+Municipal 
+de
+Saneamento
+Básico
+do
+Município
+(PMSB)
+elaborado
+em
+2014
+com
+vigência
+até
+o
+ano
+de
+2024
+6
+. 
+Além
+das
+características
+apresentadas ,
+o
+município
+conta
+com
+o
+trabalho
+de
+cooperati vas 
+remuneradas
+pelo
+serviço
+prestado ,
+representando
+um
+avanço
+para
+a
+categ oria.
+No
+caso
+das 
+cooperati vas,
+o
+trabalho
+de
+coleta
+seleti va
+no
+município
+é
+feito,
+desde
+2006,
+pela
+cooperati va
+Acácia, 
+a
+partir
+de
+um
+convênio
+realizado
+entre
+os
+cooperados ,
+prefeitura
+e
+DAAE.
+No
+ano
+de
+2020,
+foi 
+criada
+uma
+nova
+cooperati va
+na
+cidade
+a
+partir
+de
+um
+programa
+de
+incubadora
+de
+empreendimentos 
+alternativos
+que
+buscam
+promo ver
+na
+cidade
+economia
+solidária
+e
+geração
+de
+renda.
+A
+cooperati va 
+Sol
+Nascente
+foi
+criada
+com
+o
+objeti vo
+de
+prestar
+serviços
+de
+coleta
+de
+resíduos
+orgânicos
+e
+limpeza 
+urbana,
+mas
+não
+é
+mencionada
+no
+plano
+municipal,
+uma
+vez
+que
+sua
+criação
+se
+deu
+após
+a 
+prom ulgação
+do
+documento .
+6
+A
+PNRS
+estabelece
+a
+vigência
+de
+dez
+anos
+dos
+planos
+municipais,
+segundo
+informações
+coletadas
+pela
+presente 
+pesquisa
+com
+o
+DAAE
+através
+da
+Lei
+de
+Acesso
+à
+Informação
+(LAI).
+No
+segundo
+semestre
+de
+2024
+o
+Município
+deve 
+aprovar
+seu
+novo
+documento
+de
+planejamento.SciELO Preprints - Este documento é um preprint e sua situação atual está disponível em: https://doi.org/10.1590/SciELOPreprints.9899
+8
+O
+PMGIRS
+da
+cidade
+de
+Araraquara
+está
+inserido
+no
+PMSB
+e
+apresenta
+a
+seguinte 
+disposição
+de
+infor mações:
+Divisão
+de
+resíduos
+sólidos
+gerados
+de
+acordo
+com
+a
+sua
+origem;
+Levantamento
+quantitati vo
+dos
+resíduos
+sólidos;
+Classificação
+dos
+resíduos
+gerados;
+Formas
+de
+destinação
+dos
+resíduos
+sólidos;
+e
+Tipo
+de
+disposição
+final
+dos
+resíduos;
+Ao
+analisar
+o
+documento ,
+é
+possív el
+obser var
+um
+processo
+inicial
+de
+caracterização
+dos 
+resíduos
+da
+cidade
+e
+suas
+particularidades
+para,
+em
+seguida,
+apresentar ,
+tomando
+como
+diretriz
+a 
+PNRS ,
+as
+alternativas
+mais
+viáveis
+para
+a
+gestão
+do
+município .
+Ao
+obser var
+os
+dados
+presentes
+no 
+documento ,
+é
+possív el
+constatar
+que
+o
+maior
+montante
+de
+resíduos
+sólidos
+produzidos
+pela
+cidade 
+de
+Araraquara
+se
+enquadra
+como
+resíduo
+sólido
+domiciliar ,
+ou
+seja,
+orgânicos ,
+plástico ,
+papel, 
+alumínio ,
+vidro
+e
+outros
+materiais
+pós
+consumo .
+Na
+caracterização
+realizada,
+chama
+atenção
+o
+fato 
+de
+que
+em
+todas
+as
+classes
+a
+maior
+porcentag em
+de
+resíduos
+é
+de
+origem
+orgânica,
+com
+uma
+média 
+de
+54,03%.
+O
+plano
+também
+infor ma
+que
+o
+transbordo
+e
+a
+disposição
+final
+desses
+materiais
+são 
+realizados
+na
+estação
+de
+transbordo
+(licenciada
+em
+julho
+de
+2010)
+e
+depois
+seguem
+para
+o
+aterro
+do 
+Centro
+de
+Gerenciamento
+de
+Resíduos
+(CGR),
+a
+cerca
+de
+50
+Km
+da
+cidade
+de
+Araraquara,
+no 
+município
+de
+Guatapará
+(Araraquara,
+2014).
+Sobre
+a
+coleta
+seleti va,
+que
+também
+é
+deter minada
+pela
+lei
+12.305/2010,
+o
+documento 
+especifica
+que
+os
+resíduos
+de
+materiais
+recicláv eis
+como
+plástico ,
+papel
+e
+vidro
+são
+foco
+da
+coleta 
+seleti va
+solidária,
+operacionada
+pelo
+DAAE
+e
+pela
+cooperati va
+de
+catadores
+Acácia.
+A
+coleta
+cobre 
+100%
+da
+rede
+municipal
+e
+também
+os
+assentamentos
+em
+áreas
+rurais.
+Além
+dos
+Resíduos
+mencionados
+acima,
+que
+representam
+o
+maior
+percentual
+de
+geração
+na 
+cidade ,
+o
+plano
+caracteriza
+outros
+resíduos ,
+como:
+Resíduos
+da
+Constr ução
+Civil
+(RCC);
+os
+Resíduos 
+de
+Serviço
+de
+Saúde;
+os
+Resíduos
+de
+Limpeza
+Urbana;
+Resíduos
+de
+Serviços
+de
+Transpor te;
+Resíduos 
+de
+Mineração;
+Resíduos
+de
+significati vo
+impacto
+ambiental
+(como
+pilhas ,
+baterias
+e
+óleo
+de
+cozinha); 
+Resíduos
+de
+Equipamentos
+Eletroeletrônicos
+(REE);
+Pneus;
+Lâmpadas;
+Resíduos
+Industriais
+(RI); 
+resíduos
+de
+estabelecimentos
+e
+os
+rejeitos .
+Já
+no
+item
+8.3
+do
+documento
+são
+apresentados
+as 
+estratégias
+e
+os
+procedimentos
+que
+o
+município
+tem
+para
+tornar
+mais
+eficiente
+e
+efetiva
+a
+gestão 
+integ rada
+dos
+resíduos
+gerados
+na
+cidade
+de
+Araraquara.
+Após
+o
+processo
+de
+caracterização
+e
+deter minação
+da
+gestão
+dos
+resíduos ,
+o
+documento 
+apresenta
+uma
+seção
+com
+o
+plano
+de
+metas
+da
+cidade
+de
+Araraquara
+para
+a
+gestão
+de
+resíduos ,
+de 
+acordo
+com
+a
+PNRS .
+Levando
+em
+consideração
+o
+cenário
+socioeconômico
+do
+município
+de 
+Araraquara,
+obser vou-se
+que,
+mesmo
+no
+cenário
+pessimista,
+as
+metas
+estabelecidas
+no
+Plano 
+Nacional
+devem
+ser
+cumpridas
+até
+o
+ano
+de
+2031.
+De
+acordo
+com
+as
+diretrizes
+e
+metas
+traçadas
+pelo
+poder
+público
+municipal,
+para
+a
+gestão
+e
+o 
+gerenciamento
+de
+resíduos
+sólidos ,
+deve
+ser
+primordial
+a
+obser vação
+da
+ordem
+de
+prioridade:SciELO Preprints - Este documento é um preprint e sua situação atual está disponível em: https://doi.org/10.1590/SciELOPreprints.9899
+9
+redução ,
+reutilização ,
+reciclag em,
+tratamento
+e
+disposição
+final
+ambientalmente
+adequada
+aos 
+rejeitos .
+Para
+isso,
+o
+documento
+prevê
+a
+necessidade
+de
+mecanismos
+que
+facilitem
+a
+fiscalização
+e
+o 
+controle
+social.
+No
+entanto ,
+assim
+como
+em
+diversos
+aspectos
+do
+plano
+que
+analisamos ,
+essa
+menção 
+de
+mecanismos
+não
+é
+aprofundada
+e
+nem
+caracterizada
+a
+fim
+de
+tornar
+mais
+clara
+as
+ações
+do 
+município .
+Para
+além
+disso ,
+a
+menção
+aos
+orgânicos
+é
+feita
+superficialmente
+e
+dentro
+das
+diretrizes
+e 
+metas
+estabelecidas
+não
+é
+aprofundada,
+representado
+uma
+falha
+no
+que
+toca
+o
+planejamento
+público 
+para
+a
+gestão
+de
+resíduos
+sólidos
+dessa
+natureza,
+uma
+vez
+que
+eles
+compõem
+mais
+da
+metade
+do 
+montante
+total
+produzido
+na
+cidade ,
+sua
+gestão
+deveria
+receber
+mais
+atenção
+do
+poder
+público .
+Por
+outro
+lado,
+obser va-se
+na
+cidade
+iniciati vas
+fora
+do
+setor
+público ,
+como
+é
+o
+caso
+da 
+empresa
+Minhocaria,
+caracterizada
+como
+ME
+(micro
+empresa)
+atuante
+na
+cidade
+desde
+o
+ano
+de 
+2019.
+A
+empresa
+Minhocaria
+realiza
+serviços
+de
+coleta
+e
+compostag em
+de
+resíduos
+orgânicos
+para 
+clientes
+que
+contratam
+esse
+serviço
+específico .
+Seus
+planos
+são
+residenciais
+com
+valores
+a
+partir
+de 
+35
+reais
+ao
+mês
+e
+também
+empresariais ,
+a
+maior
+fonte
+de
+contratos
+da
+empresa.
+Dados
+apontam
+que 
+entre
+2019
+e
+2021
+a
+empresa
+coletou
+e
+tratou
+cerca
+de
+363
+toneladas
+de
+resíduos
+orgânicos
+no 
+município
+(Ribeiro ,
+Orsi,
+2024).
+Além
+disso ,
+obser va-se
+que
+os
+gestores
+da
+empresa
+possuem
+uma 
+aproximação
+com
+atividades
+de
+formação
+e
+educação
+ambiental
+nas
+escolas
+municipais
+e
+também 
+estão
+em
+diálog o
+com
+os
+gestores
+públicos
+da
+cidade ,
+auxiliando
+na
+constr ução
+de
+debates
+sobre
+o 
+plano
+de
+resíduos
+da
+cidade
+(Ribeiro ,
+Orsi,
+2024).
+Nesse
+sentido ,
+o
+que
+se
+obser va
+na
+gestão
+de
+resíduos
+sólidos
+orgânicos
+na
+cidade
+de 
+Araraquara
+é
+que,
+do
+ponto
+de
+vista
+da
+gestão
+pública,
+fica
+evidente
+uma
+preocupação
+com
+a
+agenda 
+ambiental
+e
+a
+gestão
+de
+RSU
+no
+geral
+e
+que
+o
+plano
+de
+resíduos
+da
+cidade
+demonstra
+tal 
+preocupação .
+Todo
+o
+plano
+municipal
+está
+estruturado
+de
+acordo
+com
+as
+diretrizes
+estabelecidas
+pela 
+PNRS ,
+porém
+não
+aprofunda
+metas
+e
+planejamentos
+para
+aprimorar
+a
+gestão
+de
+orgânicos .
+Nesse 
+sentido ,
+podemos
+afirmar
+que
+a
+constr ução
+e
+implementação
+do
+plano
+apresenta
+fragilidades ,
+pois 
+não
+indica
+diretrizes
+claras
+para
+o
+gerenciamento
+e
+destinação
+final
+ambientalmente
+adequada
+para 
+os
+RSU,
+sobretudo
+os
+orgânicos
+que
+representam
+o
+maior
+percentual
+gerado
+na
+cidade .
+GESTÃO
+DE
+RESÍDUOS
+SÓLIDOS
+EM
+CAMAÇARI
+––
+B A
+O
+município
+de
+Camaçari,
+como
+abordado
+na
+introdução
+deste
+artigo,
+é
+um
+município
+de 
+porte
+médio
+do
+estado
+da
+Bahia,
+localizado
+na
+região
+metropolitana
+de
+Salvador,
+na
+costa
+do
+estado , 
+tendo
+suas
+atividades
+econômicas
+majoritariamente
+baseadas
+no
+polo
+industrial
+de
+Camaçari. 
+Adicionalmente ,
+o
+setor
+do
+turismo
+também
+tem
+parcela
+relevante
+na
+economia,
+devido
+às
+praias
+do 
+município .
+Neste
+município ,
+os
+responsáv eis
+pelos
+serviços
+voltados
+à
+gestão
+de
+resíduos
+sólidos 
+urbanos
+correspondem
+à
+empresa
+pública
+denominada
+Limpeza
+Pública
+de
+Camaçari
+(Limpec)
+e
+à 
+Secretaria
+Municipal
+de
+Serviços
+Públicos
+(Sesp).
+Camaçari
+elaborou
+seu
+PMGIRS
+em
+2016
+7
+.
+De
+7
+Neste
+artigo
+foram
+utilizados
+como
+referências
+documentais
+o
+Produto
+12
+do
+PMSB
+de
+Camaçari,
+que
+apresenta
+o
+PMGIRS,
+sendo
+utilizados
+tanto
+o
+Volume
+I
+–
+definição
+e
+classificação,
+arcabouço
+legal
+e
+diagnóstico
+dos
+serviços
+da 
+gestão
+dos
+serviços
+de
+manejo
+de
+resíduos
+sólidos
+e
+limpeza
+urbana,
+disponível
+em: 
+https://arquivos.camacari.ba.gov.br/sedur/pmsb/PMGIRS%20Versao%20Final%20Volume%20I.pdf
+,
+quanto
+o 
+Volume
+II
+–
+demandas
+dos
+serviços,
+prospectivas
+técnicas,
+programas,
+projetos
+e
+ações,
+estimativa
+de
+recursosSciELO Preprints - Este documento é um preprint e sua situação atual está disponível em: https://doi.org/10.1590/SciELOPreprints.9899
+10
+maneira
+similar
+ao
+município
+de
+Araraquara,
+em
+Camaçari
+também
+há
+uma
+instituição
+pública 
+autônoma
+responsáv el
+pela
+gestão
+de
+resíduos ,
+que
+por
+sua
+vez
+compar tilha
+a
+gestão
+de
+resíduos 
+com
+uma
+secretaria
+municipal
+que
+não
+a
+de
+meio
+ambiente ,
+o
+que
+pode
+ser
+analisado
+como
+uma 
+inconsistência
+na
+implementação
+da
+PNRS ,
+que
+se
+trata
+de
+uma
+política
+ambiental.
+Contudo ,
+essa
+é
+a 
+realidade
+de
+diversos
+municípios
+brasileiros ,
+como
+obser vado
+por
+Santiag o
+(2016),
+uma
+vez
+que
+a 
+gestão
+de
+resíduos
+sólidos
+é
+uma
+atividade
+sob
+responsabilidade
+da
+pasta
+municipal
+desde
+a 
+Constituição
+de
+1988,
+portanto
+décadas
+mais
+cedo
+do
+que
+a
+PNRS .
+Com
+relação
+às
+cooperati vas
+de
+catadores
+de
+materiais
+recicláv eis,
+em
+Camaçari
+existem
+(i)
+a 
+Cooperati va
+de
+Materiais
+Recicláv eis
+de
+Camaçari
+(Coopmarc),
+criada
+no
+ano
+2000
+e
+mais 
+estruturada
+em
+termos
+de
+atuação ,
+tendo
+parcerias
+com
+indústrias
+do
+polo
+e
+também
+alguma 
+articulação
+com
+a
+LIMPEC;
+e
+(ii)
+a
+Cooperati va
+de
+Materiais
+Recicláv eis
+do
+Litoral
+Norte 
+(Cooperlin),
+mais
+recente
+e
+em
+situação
+mais
+precária,
+não
+possuindo
+articulação
+com
+a
+prefeitura.
+A 
+partir
+das
+infor mações
+constantes
+no
+PMGIRS ,
+que
+coletou
+estes
+dados
+em
+2014,
+não
+há
+um 
+contrato
+de
+prestação
+de
+serviços
+junto
+às
+cooperati vas,
+como
+ocorre
+em
+Araraquara.
+O
+PMGIRS
+de
+Camaçari
+apresenta
+infor mações
+análog as
+ao
+de
+Araraquara,
+o
+que
+se 
+relaciona
+com
+a
+existência
+de
+um
+conteúdo
+mínimo
+a
+ser
+atendido
+pelos
+Planos
+Municipais .
+O 
+referido
+conteúdo
+mínimo
+é
+apresentado
+no
+Art.
+19
+da
+PNRS ,
+contribuindo
+para
+a
+consolidação
+e 
+padronização
+do
+planejamento
+municipal
+no
+campo
+da
+gestão
+de
+resíduos
+sólidos .
+Com
+relação
+a
+um
+panorama
+geral
+da
+gestão
+de
+resíduos
+sólidos
+urbanos
+em
+Camaçari, 
+obser va-se
+que
+a
+coleta
+é
+terceirizada
+e,
+não
+havendo
+contrato
+com
+cooperati va
+de
+catadores ,
+há 
+apenas
+a
+coleta
+regular
+no
+município ,
+ou
+seja,
+a
+coleta
+dos
+RSU
+misturados ,
+também
+denominada 
+coleta
+indiferenciada.
+Após
+a
+coleta
+estes
+resíduos
+são
+destinados
+ao
+aterro
+sanitário
+de
+Camaçari, 
+sob
+responsabilidade
+da
+LIMPEC .
+Acerca
+da
+composição
+dos
+RSU
+gerados
+em
+Camaçari,
+tem-se
+que
+51,20%
+são
+orgânicos , 
+43,70%
+são
+recicláv eis
+ou
+reutilizáv eis
+e
+4,60%
+são
+rejeitos
+e
+outros .
+Nota-se ,
+portanto ,
+uma 
+quantidade
+similar
+de
+resíduos
+sólidos
+orgânicos
+nos
+dois
+municípios
+em
+estudo .
+É
+relevante
+obser var
+que,
+diferentemente
+de
+Araraquara,
+Camaçari
+possui
+uma
+geração
+de 
+resíduos
+sazonal,
+devido
+às
+altas
+temporadas
+de
+turismo ,
+o
+que
+impacta
+não
+apenas
+na
+geração ,
+mas 
+também
+na
+gestão
+dos
+resíduos .
+Outro
+elemento
+distinto
+de
+Araraquara
+corresponde
+às
+feiras
+livres, 
+sendo
+citadas
+nove
+feiras
+livres
+no
+PMGIRS ,
+como
+locais
+com
+elevada
+geração
+de
+resíduos , 
+notadamente
+orgânicos ,
+oriundos
+dos
+produtos
+ali
+comercializados
+como
+frutas,
+legumes
+e 
+hortaliças .
+Ambos
+os
+elementos
+anterior mente
+citados
+são
+de
+relevância
+para
+a
+gestão
+dos
+resíduos 
+orgânicos
+do
+município .
+Adentrando
+o
+campo
+dos
+resíduos
+sólidos
+orgânicos ,
+o
+PMGIRS
+de
+Camaçari
+- 
+diferentemente
+do
+caso
+de
+Araraquara
+-
+aborda
+amplamente
+esta
+questão .
+Na
+altura
+do
+diagnóstico 
+do
+PMGIRS ,
+em
+2014,
+não
+havia
+nenhuma
+ação
+específica
+da
+prefeitura
+voltada
+à
+gestão
+dos 
+resíduos
+sólidos
+orgânicos .
+Contudo ,
+o
+tema
+tem
+relevância
+no
+PMGIRS
+e
+foi
+apontado
+como
+um 
+problema
+na
+gestão
+de
+resíduos
+do
+município ,
+ainda
+que
+tenha
+sido
+considerado
+um
+problema
+de 
+menor
+prioridade
+na
+análise
+desen volvida
+por
+Campos
+et
+al.
+(2018).
+necessários
+e
+hierarquização
+das
+intervenções,
+disponível
+em: 
+https://arquivos.camacari.ba.gov.br/sedur/pmsb/PMGIRS%20Versao%20Final%20Volume%20II.pdf
+.SciELO Preprints - Este documento é um preprint e sua situação atual está disponível em: https://doi.org/10.1590/SciELOPreprints.9899
+11
+Apesar
+de
+não
+serem
+identificadas
+ações
+da
+prefeitura
+voltadas
+especificamente
+aos
+resíduos 
+orgânicos ,
+o
+diagnóstico
+do
+PMGIRS
+indica
+que
+no
+local
+das
+feiras
+livres
+ocorre
+a
+coleta
+de
+resíduos 
+orgânicos
+por
+parte
+de
+criadores
+de
+suínos ,
+que
+tem
+por
+objeti vo
+utilizar -se
+destes
+resíduos
+para 
+alimentar
+os
+animais .
+Esta
+assemelha-se
+à
+prática
+antig a
+e
+comum
+de
+alimentar
+os
+animais
+com
+o
+que 
+é
+popular mente
+denominado
+lavagem,
+correspondendo
+a
+restos
+de
+alimentos .
+Nesse
+caso,
+é
+preciso 
+que
+o
+poder
+público
+verifique ,
+por
+meio
+da
+vigilância
+sanitária,
+a
+adequabilidade
+desta
+prática
+e 
+preveja,
+sendo
+este
+o
+caso,
+o
+armazenamento
+destes
+resíduos
+de
+maneira
+adequada
+para
+posterior 
+utilização .
+Adicionalmente ,
+o
+PMGIRS
+apresenta
+o
+caso
+de
+uma
+cooperati va
+de
+pequenos
+agricultores , 
+associados
+com
+a
+finalidade
+de
+comercializar
+sua
+produção
+alimentar ,
+denominada
+Cooper monte . 
+Um
+projeto
+desta
+cooperati va,
+em
+parceria
+com
+outras
+instituições
+voltadas
+a
+práticas
+agrícolas 
+sustentáv eis,
+tem
+como
+finalidade
+realizar
+encontros
+e
+oficinas
+de
+formação
+de
+agentes
+comunitários 
+rurais
+com
+temas
+diversos ,
+dentre
+eles
+‘Manejo
+de
+resíduos
+e
+Compostag em’.
+Nesse
+sentido , 
+verificou-se
+que
+a
+cooperati va
+pratica
+a
+compostag em,
+notadamente
+de
+resíduos
+de
+poda
+e
+capina,
+a 
+fim
+de
+garantir
+uma
+destinação
+adequada
+a
+estes
+resíduos
+e,
+ao
+mesmo
+tempo ,
+obter
+composto 
+orgânico
+para
+adubação
+das
+culturas .
+Esta
+iniciati va
+revela
+o
+potencial
+de
+ações
+interdisciplinares
+no 
+campo
+dos
+resíduos
+orgânicos ,
+particular mente
+articuladas
+a
+práticas
+de
+agricultura
+sustentáv el
+e 
+agricultura
+urbana.
+Tendo
+sido
+identificada
+esta
+iniciati va,
+a
+equipe
+técnica
+responsáv el
+pela
+elaboração
+do 
+PMGIRS
+promo veu
+a
+articulação
+da
+cooperati va
+com
+o
+órgão
+de
+limpeza
+pública
+de
+Camaçari
+a
+fim 
+de
+formalizar
+algumas
+ações
+de
+apoio
+que
+contribuíssem
+para
+o
+ganho
+de
+escala
+dessa
+atividade
+de 
+compostag em.
+Após
+a
+identificação
+destas
+práticas
+voltadas
+aos
+resíduos
+orgânicos
+no
+diagnóstico
+do 
+PMGIRS ,
+no
+volume
+final
+do
+plano
+são
+apresentadas
+metas
+e
+programas
+a
+fim
+de
+destinar
+os 
+resíduos
+orgânicos
+adequadamente ,
+garantindo
+maior
+sustentabilidade
+e
+circularidade
+à
+gestão
+de 
+RSU
+do
+município .
+Dentre
+eles,
+o
+plano
+prevê
+a
+recuperação
+escalonada
+das
+43
+mil
+toneladas
+de
+resíduos 
+orgânicos
+gerados
+em
+média,
+por
+ano,
+pelo
+município .
+O
+escalonamento
+inicia
+com
+a
+recuperação
+de 
+5%
+da
+fração
+orgânica
+dos
+resíduos ,
+meta
+do
+período
+de
+2016
+a
+2018,
+passando
+a
+15%
+entre
+2019
+e 
+2022,
+posterior mente
+30%
+de
+2023
+a
+2026,
+em
+seguida
+45%
+de
+2027
+a
+2030,
+60%
+entre
+2031
+e
+2033, 
+chegando
+a
+70%
+de
+recuperação
+da
+fração
+orgânica
+em
+2034,
+horizonte
+de
+planejamento
+do 
+PMGIRS .
+Para
+atingir
+as
+referidas
+metas ,
+foram
+estruturadas
+ações
+específicas
+para
+os
+resíduos 
+orgânicos
+e
+outras
+articuladas
+aos
+resíduos
+domiciliares
+de
+um
+modo
+geral.
+Como
+exemplo
+pode-se 
+citar
+a
+coleta
+de
+resíduos
+em
+três
+frações:
+orgânicos ,
+recicláv eis
+secos
+e
+rejeitos .
+É
+de
+interesse 
+apontar
+que,
+uma
+vez
+que
+foi
+indicado
+no
+diagnóstico
+a
+inexistência
+de
+coleta
+seleti va 
+institucionalizada,
+esta
+seria
+uma
+opor tunidade
+de
+trabalhar
+com
+a
+população
+a
+sensibilização
+no 
+sentido
+de
+separar
+em
+três
+frações
+os
+resíduos ,
+otimizando
+as
+ações
+de
+comunicação
+e
+educação 
+ambiental.
+Também
+foi
+identificada
+a
+necessidade
+de
+desen volver
+ações
+específicas
+para
+locais
+com 
+grande
+geração ,
+notadamente
+as
+feiras
+livres,
+mas
+também
+a
+possibilidade
+da
+prefeitura
+fomentar 
+práticas
+de
+gestão
+dos
+resíduos
+orgânicos
+em
+restaurantes
+e
+mercados .
+No
+caso
+das
+feiras ,
+o
+projetoSciELO Preprints - Este documento é um preprint e sua situação atual está disponível em: https://doi.org/10.1590/SciELOPreprints.9899
+12
+Feiras
+e
+Jardins
+Sustentáv eis,
+do
+município
+de
+São
+Paulo
+(SP),
+tem
+pátios
+de
+compostag em
+com 
+capacidade
+de
+processamento
+de
+até
+15
+mil
+toneladas
+de
+resíduos
+orgânicos
+ao
+ano
+8
+, 
+proporcionando
+uma
+alternativa
+desejáv el
+a
+este
+tipo
+de
+resíduo .
+Já
+iniciati vas
+associadas
+a
+grandes
+geradores
+têm
+tido
+impactos
+positi vos
+no
+Distrito
+Federal 
+(Oliveira,
+2018),
+que
+reforçou
+na
+normativa
+distrital
+a
+responsabilidade
+dos
+grandes
+geradores 
+perante
+sua
+gestão
+de
+resíduos ,
+ainda
+que
+haja
+estabelecimentos
+em
+diversas
+situações
+em
+relação
+ao 
+conhecimento
+e
+cumprimento
+da
+lei,
+como
+apontam
+Bidinoto
+Jr.
+et
+al.
+(2022).
+Reforçando
+a
+relevância
+dos
+resíduos
+orgânicos
+no
+PMGIRS
+de
+Camaçari,
+dois
+objeti vos
+do 
+Plano
+abordam
+a
+questão:
+(i)
+implementar
+a
+coleta
+seleti va
+nos
+domicílios
+atendidos
+pela
+coleta
+convencional,
+visando
+a 
+separação
+dos
+resíduos
+sólidos
+urbanos
+em
+secos
+e
+úmidos
+(orgânicos);
+e
+(ii)
+incenti var
+e
+apoiar
+a
+recuperação
+de
+resíduos
+sólidos
+urbanos
+úmidos
+(orgânicos), 
+sobretudo
+por
+meio
+da
+compostag em.
+Nesse
+sentido ,
+o
+PMGIRS
+ressalta
+a
+necessidade
+de
+minimizar
+o
+envio
+deste
+resíduo
+para
+o 
+aterro
+sanitário
+e
+recuperá-lo
+para
+inserção
+em
+outros
+ciclos
+produti vos,
+como
+é
+o
+caso
+do
+composto 
+ser
+utilizado
+na
+produção
+de
+alimentos ,
+estando
+alinhado
+com
+o
+que
+preconiza
+a
+PNRS .
+Dentre
+as
+propostas
+para
+cumprir
+os
+objeti vos
+relacionados
+à
+fração
+orgânica
+dos
+RSU,
+o 
+PMGIRS
+prevê
+a
+implantação
+da
+compostag em
+domiciliar ,
+bem
+como
+de
+uma
+usina
+de 
+compostag em.
+No
+caso
+da
+compostag em
+domiciliar
+é
+previsto
+no
+PMGIRS
+o
+projeto
+“Composta 
+Camaçari”,
+inspirado
+no
+projeto
+homônimo
+desen volvido
+pela
+prefeitura
+de
+São
+Paulo
+(SP),
+que 
+obtev e
+expressi vos
+resultados
+com
+relação
+à
+compostag em
+domiciliar
+(MORAD A
+DA
+FLOREST A, 
+2014).
+O
+projeto
+Composta
+Camaçari
+foi
+proposto
+nos
+moldes
+do
+projeto
+de
+São
+Paulo, 
+consistindo
+na
+distribuição
+de
+1000
+composteiras
+domésticas
+a
+cidadãs
+e
+cidadãos
+interessados
+no 
+tema.
+O
+projeto
+também
+alia
+atores
+diversos ,
+profissionais
+interdisciplinares ,
+iniciati vas
+escolares ,
+de 
+comunicação
+e
+educação
+ambiental,
+bem
+como
+a
+constituição
+de
+uma
+rede
+sobre
+o
+tema,
+com
+o 
+objeti vo
+de
+consolidar
+esta
+prática
+junto
+à
+população
+do
+município .
+Tendo
+em
+vista
+o
+menor
+porte 
+do
+município
+de
+Camaçari
+em
+relação
+a
+São
+Paulo,
+pode-se
+esperar
+que
+o
+projeto
+tenha
+um
+impacto 
+de
+maior
+amplitude
+sobre
+a
+sociedade
+camaçariense .
+Apresenta-se
+a
+intenção ,
+no
+PMGIRS ,
+de
+que
+o
+Composta
+Camaçari
+transfor me-se
+em
+um 
+exemplo
+nacional,
+o
+que
+seria
+de
+extrema
+relevância,
+notadamente
+para
+municípios
+de
+médio
+porte, 
+que
+poderiam
+ter
+um
+exemplo
+mais
+aderente
+à
+sua
+escala
+e
+realidade .
+No
+caso
+de
+Camaçari,
+o 
+PMGIRS
+estimou
+que
+o
+projeto
+com
+duração
+de
+quatro
+anos
+teria
+o
+custo
+aproximado
+de
+R$
+34 
+milhões .
+Considerando
+a
+inserção
+de
+ações
+voltadas
+aos
+resíduos
+orgânicos
+no
+bojo
+de
+ações
+de
+maior 
+amplitude ,
+pontua-se
+a
+previsão
+de
+implantar
+uma
+usina
+de
+compostag em
+na
+unidade
+de
+triagem
+e
+8
+Maiores
+informações
+em: 
+https://www.capital.sp.gov.br/w/noticia/residuos-organicos-de-feiras-livres-sao-reaproveitados-para-compostagem-em- 
+sao-paulo
+.
+Acesso
+em
+set
+2024.SciELO Preprints - Este documento é um preprint e sua situação atual está disponível em: https://doi.org/10.1590/SciELOPreprints.9899
+13
+transbordo ,
+de
+modo
+a
+absor ver
+a
+geração
+de
+orgânicos
+de
+domicílios ,
+de
+uma
+feira
+livre
+e
+de 
+grandes
+geradores .
+Nesse
+caso,
+obser va-se
+como
+positi va
+a
+previsão
+de
+ações
+em
+distintas
+frentes 
+para
+a
+gestão
+de
+orgânicos ,
+de
+modo
+a
+atender
+a
+diversidade
+da
+população
+e
+dos
+geradores
+no 
+município .
+Após
+a
+elaboração
+do
+PMGIRS ,
+a
+Lei
+Municipal
+nº
+1.463/2016
+instituiu
+a
+política
+e
+o
+plano 
+municipal
+de
+saneamento
+básico
+do
+município ,
+no
+qual
+está
+inserido
+o
+PMGIRS ,
+como
+ocorre
+em 
+Araraquara.
+No
+entanto ,
+verificou-se
+ser
+uma
+legislação
+ampla,
+que
+não
+aborda
+o
+tema
+dos
+resíduos 
+orgânicos
+ou
+da
+compostag em,
+o
+que
+dificulta
+a
+implementação
+das
+ações
+previstas ,
+que
+por
+vezes 
+dependem
+de
+uma
+janela
+de
+opor tunidade
+que
+permita
+sua
+ascensão
+na
+agenda
+local.
+Nesse
+sentido ,
+não
+foram
+encontradas
+infor mações
+acerca
+da
+efetivação
+das
+ações 
+relacionadas
+aos
+resíduos
+orgânicos
+previstas
+no
+PMGIRS
+de
+Camaçari,
+mantendo-se
+e
+surgindo 
+novas
+iniciati vas
+9
+por
+parte
+da
+sociedade
+civil,
+exclusivamente ,
+ainda
+que
+ações
+relacionadas
+a
+outros 
+tipos
+de
+resíduos
+tenham
+sido
+desen volvidas
+10
+.
+Este
+cenário
+desvela
+uma
+realidade
+na
+qual
+o
+poder 
+de
+implementação
+não
+contou,
+a
+princípio ,
+com
+uma
+burocracia
+politicamente
+isolada,
+impactando 
+diretamente
+na
+efetivação
+de
+uma
+gestão
+de
+resíduos
+sólidos
+mais
+sustentáv el
+no
+município .
+CONSIDERAÇÕES
+FIN AIS
+A
+gestão
+de
+resíduos
+sólidos
+tem
+seu
+marco
+nacional
+com
+a
+PNRS ,
+em
+2010.
+Contudo ,
+as 
+capacidades
+estatais
+na
+esfera
+municipal
+não
+necessariamente
+teriam
+a
+capacidade
+de
+absor ver
+uma 
+normativa
+de
+alta
+complexidade
+e
+interdisciplinar ,
+tendo
+em
+vista
+as
+atribuições
+já
+existentes
+e
+a
+falta 
+de
+investimentos
+em
+capacitação .
+Neste
+artigo
+foram
+analisados
+dois
+municípios
+de
+médio
+porte,
+das
+regiões
+nordeste
+e 
+sudeste ,
+ambos
+com
+capacidades
+estatais
+similares
+e
+acima
+da
+média
+nacional
+na
+área
+ambiental. 
+Obser va-se
+a
+aderência
+dos
+municípios
+em
+relação
+à
+PNRS .
+Em
+Araraquara-SP ,
+o
+Plano
+Municipal, 
+de
+2014,
+apresenta
+as
+diretrizes
+locais
+para
+o
+setor .
+Do
+mesmo
+modo ,
+em
+Camaçari-B A,
+o
+município 
+possui
+o
+PMGIRS ,
+de
+2016,
+estabelecendo
+os
+caminhos
+para
+uma
+gestão
+de
+resíduos
+mais 
+sustentáv el
+no
+município .
+Ainda
+assim,
+obser vou-se
+que
+ambos
+apresentam
+fragilidades
+na
+gestão
+de
+resíduos
+sólidos , 
+particular mente
+no
+caso
+dos
+resíduos
+orgânicos ,
+maior
+parcela
+dos
+resíduos
+gerados
+nas
+duas
+cidades 
+e
+na
+maior
+parte
+dos
+municípios
+brasileiros .
+Não
+obstante
+sua
+relevância
+em
+relação
+ao
+total
+de 
+resíduos
+gerados ,
+os
+resíduos
+orgânicos
+aparecem
+de
+forma
+incipiente
+nas
+ações
+municipais ,
+o
+que
+é 
+contraposto
+pelo
+fato
+de
+que
+ambas
+cidades
+apresentam
+iniciati vas
+da
+população
+e
+de
+empresas 
+sociais
+voltadas
+à
+gestão
+de
+resíduos
+orgânicos .
+No
+caso
+de
+Araraquara-SP ,
+o
+planejamento
+municipal
+não
+abordou
+de
+maneira
+satisfatória
+a 
+questão ,
+que
+ganha
+forma
+no
+município
+a
+partir
+de
+uma
+empresa
+de
+pequeno
+porte
+que
+oferece
+o 
+serviço
+de
+coleta
+e
+compostag em
+desses
+resíduos
+a
+domicílios
+e
+empresas .
+10
+Como
+pode
+ser
+observado
+em:
+https://www.camacari.ba.gov.br/limpec-amplia-acoes-e-projetos-sustentaveis/
+.
+Acesso 
+em
+set
+2024.
+9
+Como
+pode
+ser
+observado
+em: 
+https://novoencanto.org.br/2017/10/24/novo-encanto-promove-cultura-da-compostagem-na-bahia/
+.
+Acesso
+em
+set 
+2024.SciELO Preprints - Este documento é um preprint e sua situação atual está disponível em: https://doi.org/10.1590/SciELOPreprints.9899
+14
+Já
+no
+caso
+de
+Camaçari-B A,
+o
+planejamento
+municipal
+apresentou
+um
+diagnóstico
+amplo 
+sobre
+o
+tema,
+bem
+como
+previu
+ações
+e
+projetos
+visando
+a
+gestão
+dos
+resíduos
+orgânicos .
+Não 
+obstante ,
+a
+partir
+das
+infor mações
+disponív eis,
+nota-se
+que
+este
+tema
+persiste
+resumido
+a
+iniciati vas 
+da
+sociedade
+civil.
+Desse
+modo ,
+obser vou-se
+a
+insuficiência
+da
+capacidade
+estatal
+para
+a
+implementação
+da 
+gestão
+de
+resíduos
+orgânicos
+em
+ambos
+os
+casos ,
+o
+que
+pode
+decor rer
+da
+inexistência
+de
+uma 
+burocracia
+politicamente
+isolada,
+aliada
+a
+outros
+fatores
+como
+a
+baixa
+prioridade
+dos
+resíduos 
+orgânicos
+na
+própria
+PNRS .
+Ainda
+assim,
+em
+ambos
+os
+municípios
+foram
+identificadas
+iniciati vas
+por
+parte
+da
+sociedade 
+civil
+e
+de
+setores
+econômicos
+com
+potencial
+de
+serem
+fomentadas
+para
+ganhar
+escala
+e
+garantir 
+maior
+sustentabilidade
+na
+gestão
+de
+resíduos
+municipal.
+Os
+cenários
+obser vados
+podem
+indicar
+a 
+necessidade
+de
+maior
+atenção
+do
+poder
+público
+para
+a
+implementação
+de
+ações
+de
+gestão
+de
+RSU 
+efetivas,
+responsabilização
+de
+grandes
+geradores
+e
+políticas
+de
+educação
+socioambiental
+estruturadas , 
+além
+de
+garantir
+a
+participação
+social
+no
+ciclo
+da
+política
+pública,
+com
+potencial
+para
+garantir -lhe 
+maior
+efetividade .
+Tais
+medidas ,
+se
+tomadas ,
+cumprem
+os
+preceitos
+da
+responsabilidade 
+compar tilhada
+presente
+na
+PNRS
+e
+podem
+significar
+avanços
+para
+a
+gestão
+de
+RSU
+nos
+municípios 
+brasileiros .
+REFERÊNCIAS
+ARARA QUARA,
+Lei
+N°
+8.335
+Institui
+o
+Plano
+Municipal
+de
+Saneamento
+Básico
+(PMSB)
+, 
+2014.
+Disponív el
+em
+Lei
+ordinária
+nº
+8.335
+-
+Legislação
+Digital
+acessado
+em
+Setembro
+de
+2024
+BIDINOTO
+JR.,
+S.;
+FARIA,
+B.
+S.;
+RIBEIR O,
+E.
+N.
+APLICAÇÃO
+DA
+LEI
+DOS
+GRANDES 
+GERADORES
+DE
+RESÍDUOS
+SÓLIDOS
+DO
+DISTRITO
+FEDERAL
+NOS 
+SUPERMER CADOS
+DE
+PLANAL TINA.
+R evista
+Gestão
+&
+Sustenta bilidade
+Ambiental
+,
+v.
+11, 
+n.
+3,
+p.
+295-318,
+2022.
+BRASIL.
+Lei
+n.
+12.305,
+de
+02
+de
+Agosto
+de
+2010.
+P olítica
+Nacional
+de
+R esíduos
+Sólidos
+,
+3.ed 
+Câmara
+dos
+Deputados ,
+Brasília,
+2017.
+BRASIL.
+Constituição
+(1988)
+.
+Constituição
+da
+República
+Federati va
+do
+Brasil.
+Brasília,
+DF:
+Senado 
+Federal:
+Centro
+Gráfico ,
+1988.
+292
+p.
+BROLLO ,
+Maria
+José;
+SILVA,
+Mirtes
+Moreira.
+POLÍTICA
+E
+GESTÃO
+AMBIENT AL
+EM 
+RESÍDUOS
+SÓLIDOS .
+REVISÃO
+E
+ANÁLISE
+SOBRE
+A
+ATUAL
+SITU AÇÃO
+NO
+BRASIL. 
+In:
+XXI
+Cong resso
+Brasileiro
+de
+Engenharia
+Sanitária
+e
+Ambiental,
+João
+Pessoa,
+2001.
+Anais...
+João 
+Pessoa,
+27p.
+2001.
+CAMPOS ,
+A.
+V.
+L.
+S.;
+SILVA,
+N.
+M.;
+VIEIRA,
+I.
+F.
+B.;
+MENDONÇA,
+Z.
+L.
+L.
+Aplicação
+da
+Matriz 
+GUT
+na
+Gestão
+Integ rada
+de
+Resíduos
+Sólidos
+da
+Cidade
+Camaçari
+-
+BA.
+In:
+SILVA,
+R.
+C.
+P.;SciELO Preprints - Este documento é um preprint e sua situação atual está disponível em: https://doi.org/10.1590/SciELOPreprints.9899
+15
+SANTOS ,
+J.
+P.
+O.;
+MELLO ,
+D.
+P.;
+EL-DEIR,
+S.
+G.
+(Org.).
+R esíduos
+Sólidos:
+Tecnologias
+e
+Boas 
+Práticas
+de
+Economia
+Circular .
+1.
+ed.
+-
+Recife:
+EDUFRPE,
+2018.
+536
+p.
+CAPELLA,
+A.
+C.
+N.
+Perspecti vas
+teóricas
+sobre
+o
+processo
+de
+formulação
+de
+políticas
+públicas .
+In: 
+Hochman,
+G.,
+Arretche,
+M.;
+Marques,
+E.
+P olíticas
+Públicas
+no
+Brasil
+.
+Rio
+de
+Janeiro:
+Fiocr uz, 
+2007.
+GEDDES ,
+Barbara.
+P olitician’ s
+dilemma:
+building
+state
+capacity
+in
+Latin
+America
+.
+1.
+ed.
+v.
+25. 
+Berkeley:
+University
+of
+Califor nia
+Press ,
+1994.
+GODO Y,
+Manuel
+Baldomero
+Rolando
+Berríos.
+Dificuldades
+para
+aplicar
+a
+Lei
+da
+Polítca
+Nacional 
+de
+Resíduos
+Sólidos
+no
+Brasil.
+Cader no
+de
+Geo g rafia
+,
+v.
+23,
+n.
+39,
+p.
+1-12,
+2013.
+INSTITUTO
+BRASILEIR O
+DE
+GEOGRAFIA
+E
+ESTATÍSTICA
+(IBGE).
+Censo
+Demo g ráfico 
+2022
+.
+Disponív el
+em
+https://censo2022.ibg e.gov.br/panorama/.
+Acesso
+em
+set
+2024.
+INSTITUTO
+BRASILEIR O
+DE
+GEOGRAFIA
+E
+ESTATÍSTICA
+(IBGE).
+MUNIC
+-
+P esquisa 
+de
+Inf or mações
+Básicas
+Municipais
+,
+2022.
+Disponív el
+em: 
+https://www .ibge.gov.br/estatisticas/sociais/educacao/10586-pesquisa-de-infor macoes-basicas-m u 
+nicipais .html
+Acesso
+em:
+set.
+de
+2024.
+GOMIDE,
+A.
+A.;
+PIRES ,
+R.
+R.
+C.
+(Eds.).
+Capacidades
+estatais
+e
+democracia
+:
+arranjos 
+institucionais
+de
+políticas
+públicas .
+Brasília
+:
+Ipea,
+2014.
+385
+p.
+CINGOLANI,
+Luciana.
+The
+State
+of
+State
+Capacity:
+a
+review
+of
+conce pts,
+evidence
+and
+measures . 
+UNU-MERIT
+W or king
+P aper
+Series
+,
+Maastric ht
+University ,
+2013-053,
+p.1-52.
+2013.
+MASSUKADO ,
+L.
+M.
+Desen v olvimento
+do
+pr ocesso
+de
+composta gem
+em
+unidade 
+descentralizada
+e
+pr oposta
+de
+softw ar e
+li vr e
+para
+o
+ger enciamento
+municipal
+dos
+r esíduos 
+sólidos
+domiciliar es
+.
+2008.
+Tese
+(Doutorado
+em
+Ciências
+da
+Engenharia
+Ambiental)
+-
+Escola
+de 
+Engenharia
+de
+São
+Carlos ,
+University
+of
+São
+Paulo,
+São
+Carlos ,
+2008. 
+doi:10.11606/T .18.2008.tde-18112008-084858.
+MASSUKADO ,
+L.
+M.
+et
+al.
+Diagnóstico
+da
+gestão
+de
+resíduos
+sólidos
+urbanos
+no
+Brasil:
+uma 
+análise
+pós
+PNSB
+2008-ênfase
+na
+destinação
+final
+e
+nos
+resíduos
+orgânicos .
+R evista
+D AE
+,
+v.
+61,
+p. 
+22-33,
+2013.
+MORAD A
+DA
+FLOREST A.
+Composta
+São
+P aulo
+.
+2014.
+Disponív el
+em 
+https://www .compostasaopaulo .eco.br/.
+Acesso
+em
+set
+2024.
+NETO ,
+Paulo
+Nascimento;
+MOREIRA,
+Tomás
+Antonio .
+Política
+Nacional
+de
+Resíduos
+Sólidos: 
+reflexões
+acerca
+do
+novo
+marco
+regulatório
+nacional.
+R evista
+Brasileira
+de
+Ciências
+Ambientais
+, 
+São
+Paulo,
+v.
+15,
+p.
+10-19,
+2010.
+OFFE,
+Claus .
+Adv anced
+capitalism
+and
+the
+w elf ar e
+state
+.
+Politics
+&
+Society ,
+v.
+2,
+n.
+4,
+p.
+479-488, 
+1972.SciELO Preprints - Este documento é um preprint e sua situação atual está disponível em: https://doi.org/10.1590/SciELOPreprints.9899
+16
+OGERA,
+R.
+C.;
+PHILIPPI
+JR.,
+A.
+Gestão
+dos
+serviços
+de
+água
+e
+esgoto
+nos
+municípios
+de 
+Campinas ,
+Santo
+André,
+São
+José
+dos
+Campos
+e
+Santos ,
+no
+período
+de
+1996
+a
+2000.
+R evista
+de 
+Engenharia
+Sanitária
+&
+Ambiental
+,
+Rio
+de
+Janeiro ,
+v.10,
+n.1,
+p.
+72-81,
+jan
+2005.
+OLIVEIRA,
+Y.
+S.
+S.
+R edução
+de
+gastos
+com
+a
+implantação
+de
+pr ojeto
+de
+composta gem
+no 
+ger enciamento
+dos
+r esíduos
+sólidos
+no
+Colégio
+Militar
+de
+Brasília
+.
+2018.
+59
+f.,
+il.
+Trabalho
+de 
+Conclusão
+de
+Curso
+(Bacharelado
+em
+Agronomia)—Uni versidade
+de
+Brasília,
+Brasília,
+2018. 
+RIBEIR O,
+R.
+C;
+ORSI,
+R.
+Agenda
+Ambiental
+e
+Economia
+Circular
+no
+Brasil:
+O
+caso
+da
+gestão
+de 
+resíduos
+orgânicos
+em
+Araraquara
+––
+SP.
+Estudos
+geo g ráficos:
+R evista
+Eletrônica
+de 
+Geo g rafia
+,
+v.
+22
+n.
+2,
+p.
+280–299,
+2024.
+SANT ANA,
+L.B.
+DE;
+ORSI,
+R.
+Investimentos
+públicos
+em
+políticas
+culturais: 
+uma
+análise
+comparati va
+entre
+as
+gestões
+do
+PMDB
+e
+do
+PT
+em
+Araraquara/SP . 
+P olíticas
+Culturais
+em
+R evista
+,
+[S.
+l.],
+v.
+16,
+n.
+1,
+p.
+163–187,
+2023.
+SANTIA GO,
+C.
+D.
+Planos
+Municipais
+de
+Gestão
+Integ rada
+de
+R esíduos
+Sólidos:
+Desafios
+na 
+implementação
+da
+Política
+Nacional
+de
+Resíduos
+Sólidos
+na
+Bacia
+Hidrog ráfica
+Tietê
+Jacaré
+–
+SP. 
+2016.
+174f.
+Disser tação
+(Mestrado
+em
+Ciências
+Ambientais),
+Universidade
+Federal
+de
+São
+Carlos , 
+São
+Carlos ,
+2016.
+SANTIA GO,
+C.
+D.
+Go v er nança
+da
+gestão
+de
+r esíduos
+sólidos
+brasileira:
+caminhos
+para
+a 
+efetivação
+da
+Política
+Nacional
+de
+Resíduos
+Sólidos .
+2021.
+Tese
+(Doutorado)
+–
+Universidade
+Federal 
+de
+São
+Carlos ,
+São
+Carlos ,
+2021.
+SANTIA GO,
+C.
+D.;
+MAR OTTI,
+A.
+C.
+B.;
+PUGLIESI,
+E.;
+GONÇAL VES,
+J.
+C.
+Política
+Nacional
+de 
+Resíduos
+Sólidos:
+perspecti vas
+após
+um
+decênio
+de
+sua
+prom ulgação.
+Desen v olvimento
+e
+Meio 
+Ambiente
+,
+v.
+62,
+2023.
+Disponív el
+em:
+https://
+revistas .ufpr.br/made/ar ticle/view/81833
+.
+SANTIA GO,
+C.
+D.
+A
+Política
+Nacional
+de
+Resíduos
+Sólidos:
+um
+olhar
+sobre
+a
+governança.
+Boletim 
+R egional,
+Urbano
+e
+Ambiental
+,
+Brasília,
+n.
+31,
+p.
+117-125,
+jan./jun.
+2024.
+DOI: 
+http://dx.doi.org/10.38116/br ua31ar t9
+WEBER,
+M.
+Economia
+e
+sociedade:
+fundamentos
+da
+sociologia
+compreensi va.
+Brasília:
+UnB. 
+1999.
+DECLARAÇÃO
+DE
+DISPONIBILID ADE
+DE
+DADOS
+DA
+PESQ UISA:
+Todo
+o
+conjunto
+de
+dados
+de
+apoio
+aos
+resultados
+deste
+estudo
+foi
+publicado
+no
+próprio
+artigo.
+CONTRIB UIÇÃO
+DAS/DOS
+AUTORES/AS:
+Lucas
+Santana:
+conceituação ,
+metodologia,
+investigação
+e
+análise
+dos
+dados ,
+escrita
+e
+revisão
+do
+manuscrito .SciELO Preprints - Este documento é um preprint e sua situação atual está disponível em: https://doi.org/10.1590/SciELOPreprints.9899
+17
+Cristine
+Santiag o:
+conceituação ,
+metodologia,
+investigação
+e
+análise
+dos
+dados ,
+escrita
+e
+revisão
+do
+manuscrito .
+Raissa
+Ribeiro:
+conceituação ,
+metodologia,
+investigação
+e
+análise
+dos
+dados ,
+escrita
+e
+revisão
+do
+manuscrito .
+DECLARAÇÃO
+DE
+CONFLITO
+DE
+INTERESSE:
+As/os
+autoras/es
+declaram
+que
+não
+há
+conflito
+de
+interesses .
+MINIBIOGRAFIAS
+DOS/D AS
+AUTORAS
+DO
+PAPER:
+Cristine
+Santiag o
+é
+gestora
+ambiental
+e
+doutora
+pela
+UFSCar ,
+com
+sua
+tese
+sobre
+governança
+da
+gestão
+de
+resíduos
+sólidos .
+É
+especialista
+em
+saneamento
+e
+saúde
+ambiental
+pela
+UFG .
+Atualmente
+é
+pesquisadora
+PNPD
+no
+IPEA
+e
+Pesquisadora
+de
+Pós-doutorado
+na
+UFSCar .
+Lucas
+Santana
+é
+mestre
+em
+Ciências
+Sociais
+pela
+UNESP ,
+com
+graduação
+pela
+mesma
+instituição ,
+com
+bolsa
+CAPES
+e
+FAPESP .
+Atualmente
+realiza
+estágio
+doutoral
+na
+Universidade
+de
+Salamanca,
+Espanha,
+com
+bolsa
+CAPES ,
+na
+área
+de
+políticas
+públicas ,
+burocracia
+e
+gestão
+subnacional.
+Raissa
+Carvalho
+Ribeiro
+é
+Cientista
+Social
+pela
+UNESP
+e
+Mestranda
+em
+Ciências
+Sociais
+pela
+mesma
+instituição
+com
+bolsa
+CAPES .
+Atualmente
+desen volve
+pesquisa
+na
+área
+de
+Políticas
+Públicas
+Ambientais
+com
+ênfase
+em
+Gestão
+de
+Resíduos
+Sólidos
+Urbanos
+e
+Economia
+Circular .SciELO Preprints - Este documento é um preprint e sua situação atual está disponível em: https://doi.org/10.1590/SciELOPreprints.9899
+Este preprint foi submetido sob as seguintes condições: 
+Os autores declaram que estão cientes que são os únicos responsáveis pelo conteúdo do preprint e que o
+depósito no SciELO Preprints não significa nenhum compromisso de parte do SciELO, exceto sua
+preservação e disseminação.
+Os autores declaram que os necessários Termos de Consentimento Livre e Esclarecido de participantes ou
+pacientes na pesquisa foram obtidos e estão descritos no manuscrito, quando aplicável.
+Os autores declaram que a elaboração do manuscrito seguiu as normas éticas de comunicação científica.
+Os autores declaram que os dados, aplicativos e outros conteúdos subjacentes ao manuscrito estão
+referenciados.
+O manuscrito depositado está no formato PDF.
+Os autores declaram que a pesquisa que deu origem ao manuscrito seguiu as boas práticas éticas e que as
+necessárias aprovações de comitês de ética de pesquisa, quando aplicável, estão descritas no manuscrito.
+Os autores declaram que uma vez que um manuscrito é postado no servidor SciELO Preprints , o mesmo
+só poderá ser retirado mediante pedido à Secretaria Editorial do SciELO Preprints , que afixará um aviso de
+retratação no seu lugar.
+Os autores concordam que o manuscrito aprovado será disponibilizado sob licença Creative Commons CC-
+BY.
+O autor submissor declara que as contribuições de todos os autores e declaração de conflito de interesses
+estão incluídas de maneira explícita e em seções específicas do manuscrito.
+Os autores declaram que o manuscrito não foi depositado e/ou disponibilizado previamente em outro
+servidor de preprints ou publicado em um periódico.
+Caso o manuscrito esteja em processo de avaliação ou sendo preparado para publicação mas ainda não
+publicado por um periódico, os autores declaram que receberam autorização do periódico para realizar
+este depósito.
+O autor submissor declara que todos os autores do manuscrito concordam com a submissão ao SciELO
+Preprints .
+Powered by TCPDF (www.tcpdf.org)

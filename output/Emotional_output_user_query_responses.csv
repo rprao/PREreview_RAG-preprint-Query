@@ -1,0 +1,24 @@
+Query,Response
+எனக்கு கட்டுரையின் abstract விரிவான மற்றும் சுருக்கமான சுருக்கம் தேவை,"Here is a rewritten abstract and a concise summary of the given context:
+
+**Detailed Abstract:**
+
+Recent advancements in extrinsic mapping systems have led to the development of novel methods that leverage residual evaluation and selection. A recent study has proposed a method called Er-mapping, which utilizes a colored mapping system to reconstruct comprehensive surfaces. The approach employs a residual evaluation mechanism to refine the reconstruction process. The system is evaluated on various datasets and compared to existing methods, demonstrating improved performance in terms of mapping quality and accuracy.
+
+**Concise Summary:**
+
+Er-mapping is a novel extrinsic mapping system that utilizes a colored mapping system to reconstruct comprehensive surfaces. It employs residual evaluation to refine the reconstruction process, achieving better mapping quality and accuracy compared to existing methods."
+J'ai besoin d'un résumé détaillé et concis de l'article,"Here is a detailed and concise summary of the article:
+
+The article presents a novel 3D reconstruction system that leverages LiDAR and Gaussian Splatting to improve geometric accuracy in large-scale scenes. The system consists of three main steps: initialization, optimization, and mesh extraction. The initialization step uses plane-constrained multimodal Gaussian Mixture Models to convert LiDAR point clouds into accurate initial Gaussian surfels. The optimization step refines the Gaussian surfels using global image normalization, local GMM normalization, and geometry-aware density control. The mesh extraction step eliminates incorrect samples and applies the screened Poisson reconstruction method to extract meshes. The article also presents an ablation study and compares the performance of LI-GS with 13 other methods, demonstrating state-of-the-art performance in large-scale 3D reconstruction."
+I need a detailed and concise summary of the article.,"The article presents a novel approach to 3D surface reconstruction using Gaussian-based methods. The authors propose a comprehensive normalization approach alongside an innovative geometry-aware density control method to address the issue of noisy reconstruction in sparse view scenes. The method, called LI-GS, incorporates LiDAR data and visual information to reconstruct more comprehensive surfaces.
+
+The article begins by introducing the concept of Gaussian surfels, which are used to model the 3D surface. The authors then describe the initialization process, which involves identifying the effective points in the new space and determining the global GMM. The GMM is used to supervise the position and shape of Gaussian surfels in 3D space.
+
+The authors then introduce the normalization approach, which consists of five components: GMM loss, photometric loss, sky loss, depth image loss, and normal image loss. The GMM loss is used to optimize the position and shape of Gaussian surfels, while the photometric loss is used to optimize the color and texture of the reconstructed surface.
+
+The article also presents an ablation study, which compares the performance of different initialization methods and normalization approaches. The results show that the proposed method outperforms the baseline methods in terms of geometric quality and rendering quality.
+
+The article concludes by highlighting the advantages of the proposed method, including its ability to reconstruct more comprehensive surfaces and its improved rendering quality. The authors also discuss the potential applications of the method, including 3D modeling, computer-aided design, and virtual reality.
+
+Overall, the article presents a novel approach to 3D surface reconstruction using Gaussian-based methods and demonstrates its effectiveness through experimental results."

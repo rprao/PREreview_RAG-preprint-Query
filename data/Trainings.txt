@@ -1,0 +1,116 @@
+Title : Trainings[https://prereview.org/trainings]
+
+Peer review plays a pivotal role in determining which research projects receive funding, which findings get published, and ultimately, which knowledge is disseminated and utilized by the scientific community and the broader public. Despite its critical importance, reviewers often undergo minimal training for this crucial task. Furthermore, that training rarely focuses on mitigating the biases that are ingrained in the peer review process. Hence, new generations of reviewers often lack the frameworks to address their biases leading to a perpetuation of the current problems of inequities in scholarly publishing. At PREreview we offer two kinds of peer review training workshops centered on issues of equity, diversity, and inclusion: PREreview Open Reviewers, focused on research manuscripts’ review, and PREreview Open Grant Reviewers, focused on grant applications’ review.
+
+We work with organizations, institutions, and funding agencies that want to offer their communities the opportunity to challenge their beliefs and learn from one another how to recognize and mitigate the impact of bias in research evaluation.
+
+Our workshops are designed for safe and inclusive delivery - both online and in-person - by providing clear guidelines ahead of time and by accommodating participants’ different communication and participation styles. Our content is intentionally interactive and is presented to participants using collaborative note-taking and other supporting tools, such as Mentimeter. Contact us at community@prereview.org to discuss which type of workshop is best for your organization and options for tailoring our workshop content for your organization’s needs.
+
+Note: we also run 2-hour community workshops every quarter of the year which are open to individual sign-ups. Read below for more information on the next available workshop and how to register.
+PREreview Open Reviewers
+
+The Open Reviewers Workshop is an interactive and hands-on training program designed for researchers at all career levels who are interested in engaging in ethical and constructive manuscript peer review. With a focus on promoting equity, diversity, and inclusion, the workshop provides participants with the necessary skills and knowledge to conduct equitable peer reviews with the use of materials from The Open Reviewers Toolkit.
+2-hour workshop
+
+This stand-alone introductory workshop focuses on the basics of open, preprint peer review and becoming aware of biases present in the scholarly publication process.
+
+Learning Objectives:
+
+    A general understanding of journal-organized and independent review processes
+    An introduction to how systems of oppression manifest in the manuscript review process
+    An introduction to strategies to self-assess and mitigate bias in the context of manuscript review
+
+Multi-session workshops
+
+These multi-session training run for  4-6 hours and offer greater opportunities for practical review experience following a structured approach to writing a review, keeping issues of bias and systemic oppression front of mind. These workshops culminate in a Live Review session facilitated by PREreview staff where participants select and review a preprint together.
+
+Learning Objectives:
+
+    A general understanding of journal-organized and independent review processes
+    A detailed understanding of how systems of oppression manifest in the manuscript review process
+    Strategies to self-assess and mitigate bias in the context of manuscript review
+    An in-depth understanding of and practical experience with peer reviewing a manuscript in a way that minimizes bias, striving for constructive, clear, and actionable feedback
+    An opportunity to put learning into practice by collaboratively reviewing a preprint and publishing the resulting preprint review on PREreview.org
+
+PREreview Open Grant Reviewers
+
+The PREreview Open Grant Reviewers workshop is designed to guide grant reviewers in the equitable assessment of grant applications. Our goal is to engage and train a pool of diverse, socially conscious grant reviewers.
+2-hour workshop
+
+Open Grant Reviewers is currently offered as a 2-hour workshop but can be modified to provide greater support and depth of learning. Throughout the workshop, reviewers are encouraged to identify and address biases in the grant review process using our training materials, which include a Bias Reflection Guide. Our curriculum includes space for debate-based learning and open discussions among the reviewers.
+
+Learning Objectives:
+
+    A broad understanding of what systems of oppression are and how they manifest in the grant review process
+    Strategies to recognize, self-assess, and address bias in the context of grant review
+    How to review a grant in a way that minimizes bias, striving for constructive, clear, and actionable feedback
+    Advice around best practices in creating rubrics and evaluation criteria that help reduce subjectivity, and bring greater transparency and equity into the review process
+
+Pricing
+
+The pricing across all our workshop offerings is as follows. Please note that these prices are for up to 30 participants but more can be added at an additional cost.
+
+
+This table outlines the workshop fees for organizations based on two criteria: their annual revenue (or expenses) and the income classification of the country they are based in. It categorizes organizations into four groups and provides corresponding fees for workshops of different durations (2 hours, 4 hours, and 6 hours).
+
+Key Table Structure:
+
+    Criteria:
+        Defines the organization's revenue or expenses threshold in USD, as well as the income classification of the country where the organization is based (High-income, Upper-middle-income, Lower-middle-income, Low-income, IDA countries).
+    Workshop Fees (USD):
+        Fees for workshops of 2 hours, 4 hours, and 6 hours are presented for each revenue and country category.
+
+Category Breakdown:
+
+    High-income Country / Revenue > $1.5 million USD
+        2 hours: $2,000
+        4 hours: $4,000
+        6 hours: $6,000
+
+    Upper-middle-income Country / Revenue between $750,000 and $1.5 million USD
+        2 hours: $1,000
+        4 hours: $2,000
+        6 hours: $3,000
+
+    Lower-middle or Low-income Country / Revenue between $250,000 and $750,000 USD
+        2 hours: $500
+        4 hours: $1,000
+        6 hours: $1,500
+
+    IDA Country / Revenue < $250,000 USD
+        2 hours: Free**
+        4 hours: Free**
+        6 hours: Free**
+
+*Country classifications are as defined by the World Bank categorization. Please refer to the  International Development Association page for a list of eligible countries. The IDA is part of the World Bank. Its criteria are more nuanced than ‘low income’ or ‘lower-middle income’ as it takes into account GNI per capita as well as creditworthiness, which is especially important in countries where the gap between rich and poor is very large.
+
+** As we are a small team, we have limited slots for free workshops over the course of the year. For the 4 and 6 hours workshop, we can work with the organization/group to find sponsorship support. We appreciate your understanding and flexibility in accommodating workshop requests.
+
+This equitable pricing plan has been developed with reference to criteria used by C4DISC, The Carpentries, and Crossref’s GEM program.
+Past and present collaborators
+
+    AfricArXiv
+    Arizona State University
+    Crohn's and Colitis Foundation
+    Health Research Alliance
+    Open Research Funders Group
+    Oregon Health & Science University
+    Eider Africa
+    eLife
+    The American College of Obstetricians and Gynecologists
+    Training Centre in Communication (TCC) Africa
+    University of Exeter
+    Uppsala University Department of Cell and Molecular Biology
+
+Upcoming Community Workshops
+
+Our next Community Workshops that are open for individual sign-up will take place in early 2024 - dates to be confirmed soon.
+Join the PREreview Community Slack[https://bit.ly/PREreview-Slack]
+
+The PREreview community is now on Slack! Join us to connect with like-minded peers and to continue conversations with colleagues and other participants from PREreview training workshops.
+
+Sign up here for your invitation to join us on Slack![https://bit.ly/PREreview-Slack]
+
+Questions?
+
+Please share them with us at community@prereview.org.

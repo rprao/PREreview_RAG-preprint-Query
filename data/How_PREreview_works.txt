@@ -1,0 +1,29 @@
+Title: How PREreview Works[https://content.prereview.org/content/images/2024/08/how-prereview-works.png]
+
+Step 1:
+- You find a preprint you'd like to review.
+- You copy the preprint’s DOI from its server.
+- You visit PREreview.org and hit the "Review a preprint" button.
+
+Step 2:
+- You paste in the preprint’s DOI.
+- You pick a type of PREreview to begin:
+  - Structured PREreviews have prompts to answer.
+  - Templated and free-form PREreviews let you copy and paste your review.
+
+Step 3:
+- You choose your public or pseudonymous name.
+
+Step 4:
+- You add any additional authors by email.
+
+Step 5:
+- You declare any competing interests.
+
+Step 6:
+- You affirm you are following our code of conduct.
+
+Step 7:
+- You publish your PREreview on Zenodo and get a DOI.
+- PREreview invites additional authors and credits public authors on ORCID.
+- PREreview.org displays your review as well.

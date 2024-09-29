@@ -1,0 +1,56 @@
+Title : Clubs [https://prereview.org/clubs]
+
+PREreview Clubs are collaborative preprint reviewing groups around a shared affiliation, affinity, interest, location, or any other common cause. Club members work together to give preprint authors timely, constructive peer feedback. These clubs take the place of the older “Communities” on our website. We’ve overhauled those groups into our new PREreview Clubs with community feedback from design sprints, user research interviews, and collaboration with partners like ASAPbio and HHMI.
+
+How can I start a PREreview Club?
+
+Anyone who wants to form a collaborative preprint reviewing group can ask to start a Club. While we plan to automate the process more in 2024, PREreview Clubs are a concierge service. That means you should complete this form to start a PREreview Club. We’ll get back in touch with you by email to describe the next steps in the process and to make sure it’s a good fit for what you want to achieve.
+
+If everything seems right, we’ll set up your Clubs page and go through our workflow with you to ensure that your Club and all its participating authors are credited on the reviews you author together.
+
+You might start a PREreview Club based on affinity, geography, or language. You might also create a Club for your class, lab, institution, or organization. You might even start a Club[link:https://airtable.com/appNMgC4snjFIJQ0X/shrV1HBbujo5ZZbzN] for your friends who love collaborative preprint review!
+
+You can check out our PREreview Clubs onboarding document here to learn more.
+
+If you’re interested in starting a club after that, complete this form, and we'll contact you soon to begin the process.
+
+Can I join an existing PREreview Club?
+
+Yes, you can if the club is open to accepting new members. Some clubs are dedicated to particular groups or communities. Here is the list of existing PREreview Clubs:
+
+    ASAPbio Cancer Biology Crowd
+    ASAPbio Cell Biology Crowd
+    ASAPbio Immunology Crowd
+    ASAPbio Meta-Research Crowd
+    ASAPbio Metabolism Crowd
+    ASAPbio Microbiology Crowd
+    ASAPbio Neurobiology Crowd
+    Biology of Marine Invertebrates & Friends
+    Biomass and Biocatalysis Group
+    Biophysics Leipzig University
+    CARA Club
+    Etymos Analytica
+    HHMI Transparent and Accountable Peer Review Training Pilot
+    JMIR Publications
+    Language Club
+    Neuroscience Student Association at UTD
+    Open Box Science
+    Open Science Community Iraqi (OSCI)
+    Proteostasis and Cancer Team INSERM U1242
+    Reviewing Dental Articles Club
+    RR\ID Student Reviewer Club
+    SG Biofilms and Microbiome Club
+    TSL Preprint Club
+
+Share your PREreview Clubs feedback
+
+If you have feedback to give about your PREreview Clubs experience, please feel welcome to schedule a user research interview with Product Manager Chad Sansing. Click here to sign up for a chat. If you can’t find a time that works for you, you can email Chad to arrange a call, as well. Whenever possible, we compensate interviewees.
+
+Join the PREreview community Slack
+
+The PREreview community is now on Slack! Join us to connect with like-minded peers and to continue conversations with colleagues and other participants from PREreview training workshops.
+
+Sign up here[https://airtable.com/appNMgC4snjFIJQ0X/shr1VC5VXJ1fTViul] for your invitation to join us on Slack!
+Questions?
+
+Please share them with us at community@prereview.org.

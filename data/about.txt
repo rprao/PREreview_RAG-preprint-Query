@@ -1,0 +1,89 @@
+
+Title: About us[https://prereview.org/about]
+
+Mission
+
+PREreview's mission is to bring more equity and transparency to scholarly peer review by supporting and empowering communities of researchers, particularly those at early stages of their career (ECRs) and historically excluded, to review preprints in a process that is rewarding to them.
+
+In 2017, we founded PREreview because we believe science and scholarship should be equitable, transparent, and collaborative.
+
+PREreview gives systematically disadvantaged scientists better ways to find a voice, train, and engage in peer review. Our work is a direct response to the flawed way scientific research is evaluated. Behind closed doors, a handful of unpaid reviewers—selected opaquely and mainly through personal connections—use subjective criteria to decide the fate of a research article. This arcane process is slow and disadvantages researchers from historically excluded groups.
+
+PREreview closes obvious gaps in the process to make research and how it's evaluated more equitable. We train researchers in giving and receiving feedback, we engage communities of marginalized researchers, and we implement measures to reflect on personal bias.
+
+In taking these vital steps, PREreview envisions a future in which every researcher is empowered with the skills to recognize and fight bias, and is welcomed into a peer review culture where constructive feedback is expected and rewarded.
+
+Our values are integral to how and why we do this work. As a part of our commitment to transparency and equity, we share our values below.
+
+Read more about our commitment to Equity, Diversity, and Inclusion here.
+Values
+We believe in equal access
+
+The fair distribution of advantages and relationships has the potential to change the face of scientific research. By providing pathways to mentorship, collaborative constructive feedback, and publishing of peer reviews, we are dedicated to expanding the reach of science from marginalized communities. We seek to level the playing field of the scientific community by offering resources that are often unavailable to marginalized scientists.
+We believe in connecting people
+
+Collaboration is a critical component of the research process. Scholarly conversation and feedback close unseen gaps and generate new ideas. As scientists, we know relationships cultivate dynamic and robust science. Toward that end, we are committed to building bridges between researchers and reviewers and mentors and mentees as a vital part of equity and scientific rigor.
+We believe in self-reflection
+
+Bias is a reality of our work and our world. We recognize this fact, and work to alleviate its impact. Scientists who participate in our mentoring and training programs use action-oriented tools to mitigate the bias we all have when we mentor, peer review, and conduct ourselves on an everyday basis. We implement these steps in order to make our work and our field more equitable.
+We believe in measurable success
+
+Commitments to equity must be accompanied by data and action. We set our equity goals around key metrics that center user inclusion and diverse demographics. At every level, our programming reflects an evidence-based approach and tangible benchmarks.
+What we do
+
+We design and develop open source infrastructure to enable constructive feedback to preprints at a point in time in which it is needed.
+
+We provide opportunities for researchers to create meaningful collaborations and connections defeating cultural and geographical barriers.
+
+We partner with like-minded organizations to organize events, run programs, and work together on open infrastructure to create rewarding preprint review experiences for researchers.
+
+Read more about who we are, how to use our website, our training opportunities, and collaborative live review events.
+
+Keep up-to-date by joining our bi-monthly newsletter and join us on our Community Slack.
+This flowchart illustrates how a PREreview is made, beginning with finding a preprint and its DOI, copying and pasting that DOI into the "Review a preprint" workflow on the website, and then completing and publishing a review from that workflow.Here are the steps you'll take to publish a PREreview.
+Find a preprint to review on servers supported by PREreview.org
+
+We aim to serve preprint authors, reviewers, and servers from around the world. Below, you will find a list of preprint servers that PREreview can easily pull public metadata information from for the purposes of review.
+
+If you are searching for a preprint to review, please visit one of the servers listed below that's relevant to you! We can easily pull public metadata from all of these servers and frequently add more in response to user requests.
+
+You can also visit Sciety to find curated lists of preprints you might like to review, especially through Sciety's groups and lists.
+
+If you use a preprint server that is not listed and you would like PREreview.org to more easily pull public metadata from that server, please let us know at help@prereview.org.
+
+    AfricArXiv
+    Arcadia Science Pubs
+    arXiv
+    Authorea
+    bioRxiv
+    ChemRxiv
+    Curvenote
+    EarthArXiv
+    EcoEvoRxiv
+    EdArXiv
+    engrXiv
+    medRxiv
+    MetaArXiv
+    OSF
+    PhilSci-Archive
+    Preprints.org
+    PsyArXiv
+    PsychArchives
+    Research Square
+    SciELO
+    ScienceOpen
+    SocArXiv
+    TechRxiv
+    Zenodo
+
+Request a review of a preprint on servers supported by PREreview.org
+
+You can also request a review of a preprint from PREreview.org, from our Slack community, or directly from bioRxiv or SciELO Preprints.
+
+    To request a review on PREreview.org, click on the "Request a review" link next to the  "Review a preprint" button. You will need the DOI of the preprint you would like to request for review. You can currently request a review of any preprint on bioRxiv, SciELO Preprints, arXiv, EcoEvoRxiv, EdArXiv, medRxiv, OSF,  PsyArXiv, and SocArXiv. We will be adding support for more servers as we go, and if you'd like to request support for a server, please email us at help@prereview.org.
+    To request a review on our Slack community, please create an account there and then visit the #request-a-review channel. You can type in any request for review you'd like to share on that channel. Please be sure to add the DOI of the preprint and a little information about it to help potential reviewers know if they are a good match for reviewing that preprint or not.
+    To request a review as a preprint author on bioRxiv or SciELO preprints, click on the option to request a review when you publish your preprint on either server.
+
+Once your request is made, it should show up on both PREreview.org (on the homepage and on the "Recent review requests" page) and in our Slack community.
+
+If you have any questions or run into any difficulties, please let us know at help@prereview.org.

@@ -1,0 +1,1138 @@
+Text from samplepdfimage-0.jpg:
+2409.12899v1 [cs.RO] 19 Sep 2024
+
+e
+e
+
+ar XV
+
+6
+
+is
+
+LI-GS: Gaussian Splatting with LiDAR Incorporated
+for Accurate Large-Scale Reconstruction
+
+Changjian Jiang', Ruilan Gao', Kele Shao!, Yue Wang!, Rong Xiong!, Yu Zhang!?*
+
+Abstract—Large-scale 3D reconstruction is critical in the
+field of robotics, and the potential of 3D Gaussian Splatting
+(3DGS) for achieving accurate object-level reconstruction has
+been demonstrated. However, ensuring geometric accuracy in
+outdoor and unbounded scenes remains a significant challenge.
+This study introduces LI-GS, a reconstruction system that incor-
+porates LiDAR and Gaussian Splatting to enhance geometric
+accuracy in large-scale scenes. 2D Gaussain surfels are em-
+ployed as the map representation to enhance surface alignment.
+Additionally, a novel modeling method is proposed to convert
+LiDAR point clouds to plane-constrained multimodal Gaussian
+Mixture Models (GMMs). The GMMs are utilized during both
+initialization and optimization stages to ensure sufficient and
+continuous supervision over the entire scene while mitigating
+the risk of over-fitting. Furthermore, GMMs are employed in
+mesh extraction to eliminate artifacts and improve the overall
+geometric quality. Experiments demonstrate that our method
+outperforms state-of-the-art methods in large-scale 3D recon-
+struction, achieving higher accuracy compared to both LiDAR-
+based methods and Gaussian-based methods with improvements
+of 52.6% and 68.7%, respectively.
+
+Index Terms—LiDAR, Gaussian Splatting, Mapping.
+
+I. INTRODUCTION
+
+Navigation in large-scale outdoor environments is crucial in
+various robotic applications, such as autonomous driving [1],
+industrial inspection [2], and embodied AI [3]. The reconstruc-
+tion of an accurate and dense 3D map of the environment plays
+an essential role to achieve these tasks. LiDAR-visual fusion
+is a prominent technique for large-scale 3D reconstruction that
+combines the geometric information provided by LiDAR with
+the texture information captured by cameras.
+
+Recently, 3D Gaussian Splatting (3DGS) [4] has gained
+widespread attention in 3D reconstruction. In contrast to
+neural implicit representations such as neural radiance field
+(NeRF) [5]-[7] and neural signed distance function (SDF) [8]-
+[10], 3DGS explicitly represents the environment, leading to
+significant reduction in training time and enabling real-time
+rendering. These advantages position 3DGS as a promising
+map representation, as shown in studies [11]—[13]. However,
+
+The project page is: https://changjianjiangO1.github.io/LI-GS/ .
+
+This research was supported by National Key R&D Program of China
+under Grant 2023 YFB4704400, in part by Zhejiang Provincial Natural Science
+Foundation of China under Grant No. LD24F030001, and in part by NSFC
+62088101 Autonomous Intelligent Unmanned Systems.
+
+1 State Key Laboratory of Industrial Control Technology, College of Control
+Science and Engineering, Zhejiang University, Hangzhou, China.
+
+2 Key Laboratory of Collaborative sensing and autonomous unmanned
+systems of Zhejiang Province, Hangzhou, China.
+
+* Correspondence: Yu Zhang. Email: zhangyu80@zju.edu.cn
+
+Camera + = — —
+
+Horizontal
+
+. ~~
+LIDAR ~~ _
+
+Fig. 1. The performance of LI-GS. (a) The comprehensive mesh of a campus
+scene, with its details shown in (b)-(e). (f) Our data collection platform. (g)-
+(h) The rendered RGB image and the colorized mesh of an indoor scene.
+
+3DGS encounters challenges in achieving geometrically ac-
+curate reconstruction, especially in sparse-view, unbounded
+and large-scale scenes. These challenges can be attributed
+to three main factors: (1) Ellipsoid-like shape. Gaussians
+exhibit ellipsoid-like shapes, which violates the assumption
+of thin object surfaces, resulting in poor surface fitting. (2)
+Lack of precise depth information. The lack of precise
+depth information hinders the supervision along the camera’s
+principal axis. As a result, the photometric loss excessively
+impacts the geometric attributes of the Gaussians, leading
+to their inaccurate placement. (3) Sparse supervise views.
+Autonomous systems often capture a limited number of super-
+vise views, and exclusively performing object-centric trajecto-
+ries for improving reconstruction is infeasible. Consequently,
+3DGS tends to overfit to a single view and lacks geometric
+consistency across multiple views.
+
+Current studies [14], [15] directly set the z-scale of Gaus-
+sians to zero, which flattens 3D ellipsoids into 2D surfels,
+facilitating object-level reconstruction. However, the lack of
+accurate depth information hinders these methods from attain-
+ing desirable results in large-scale scenes. Certain studies [16]-
+[18] integrate LiDAR with 3DGS. Nonetheless, the sparsity
+of supervise views limits LiDAR’s capacity to provide com-
+prehensive constraints for the entire scene, leading to inferior
+mapping effects. In summary, reconstructing accurate surfaces
+
+0000-0000/00$00.00 © 2021 IEEE
+
+
+Text from samplepdfimage-1.jpg:
+¢
+(a) Initialization
+
+SLAM & Dynamic
+Object Removal
+
+Point Cloud
+
+Plane-Constrained Incremental
+4D GMM Modeling t
+Camera Pose
+
+Estimation
+
+—-> Operation Flow
+
+> Gradient Flow
+
+Normal
+
+Occupied Voxel
+
+=a
+
+Unoccupied Voxel
+
+| e le Unoccupied Samples
+| @ Samples Distant
+se from the Surface
+td Correct Samples
+
+Global Image Normalization
+
+|
+1% ,'
+
+GMM
+
+Local GMM Normalization
+
+Fig. 2. The overview of our system. Our system involves three steps: (a) We utilize the plane-constrained incremental 4D GMM to generate initial Gaussian
+surfels. (b) To optimize the Gaussian surfels, we apply global image normalization, local GMM normalization, and geometry-aware density control. (c) We
+eliminate incorrect samples using a coarse-to-fine method, and then apply the screened Poisson reconstruction method [19] to extract meshes.
+
+using Gaussians in large-scale scenes remains a challenge.
+
+To tackle this challenge, we propose LI-GS, a reconstruction
+system that incorporates LiDAR with Gaussian Splatting to
+enhance geometric accuracy in large-scale scenes, as shown
+in Fig. 1. Our system utilizes 2D Gaussain surfels [14] as
+the map representation to improve surface alignment. We
+consider both LiDAR point clouds and Gaussian surfels as
+samples drawn from a probability distribution that represents
+the surfaces of scenes. LiDAR point clouds, serving as an
+initial sparse sampling, provide precise geometric information
+to guide the resampling of Gaussian surfels, resulting in
+accurate reconstruction.
+
+Specifically, plane-constrained multimodal Gaussian Mix-
+ture Models (GMMs) are utilized to convert LiDAR point
+clouds to a continuous probabilistic model. The utilization
+of these GMMs offers several advantages. Firstly, plane-
+constrained multimodal GMMs can serve as initial models that
+accurately capture the geometry and textures of scenes, which
+are not attainable through SfM [20]. Secondly, GMMs can
+enhance constraints along the camera’s principal axis during
+optimization and eliminate artifacts near depth discontinuities
+during mesh extraction. Thirdly, GMMs provide continuous
+and sufficient supervision in unobserved areas and prevent
+over-fitting to a single view. Our system is comprehensively
+compared with thirteen excellent methods. The experimental
+results demonstrate that our method attains state-of-the-art
+performance in large-scale 3D reconstruction. Overall, the
+contributions of this paper can be summarized as follows:
+
+e A LiDAR-visual reconstruction system is proposed,
+which incorporates LiDAR during both initialization and
+optimization stages of Gaussian Splatting.
+
+e The plane-constrained multimodal GMM is introduced,
+which converts colorized point clouds into accurate initial
+Gaussians.
+
+e A geometric normalization method is introduced, which
+leverages GMMs to optimize the attributes and distribu-
+tion of Gaussians.
+
+e The system is evaluated in various scenarios and achieves
+significant improvements compared to LiDAR-based
+methods (52.6%) and Gaussian-based methods (68.7%).
+
+II. RELATED WORKS
+A. Large-Scale 3D Reconstruction
+
+In contrast to the explicit 3D representations shown in [21],
+[22], several studies have embraced neural implicit represen-
+tations for LiDAR-based outdoor 3D reconstruction [6], [8]—
+[10]. These approaches employ multilayer perceptrons (MLPs)
+to encapsulate the entire scene and achieve satisfactory results.
+Nonetheless, the sparsity of LiDAR scans may compromise the
+reconstruction quality, especially in areas with limited LiDAR
+coverage. In addition, some implicit methods adopt a LiDAR-
+visual fusion approach for large-scale scene reconstruction.
+Urban Radiance Fields [7] presents a method that utilizes
+LiDAR to extend the application of the NeRF to large-scale
+scenes. Inspired by this approach, SiVLR [2] integrates with
+a SLAM system and employs RGB images, LiDAR depth,
+and normal images for training a NeRF. In contrast to neural
+implicit representations, 3D Gaussian Splatting (3DGS) [4]
+utilizes a collection of Gaussians with learnable attributes to
+explicitly represent appearance and geometry, thereby enabling
+real-time rendering.
+
+B. Geometrically Accurate Reconstruction Using Gaussians
+
+Numerous Gaussian-based methods have been proposed to
+enhance the geometric accuracy of 3D reconstruction. 2DGS
+[14] and Gaussian Surfels [15] propose to flatten Gaussian
+ellipsoids to surfels and introduce a normal-depth consistency
+regularization. Additionally, SuGaR [23] employs the SDF
+to enforce the alignment of Gaussians with object surfaces.
+PGSR [24] renders unbiased depth maps and proposes a
+multi-view regularization. In addition to solely focusing on
+regularization, Trim3DGS [25] propose a contribution-based
+trimming strategy to eliminate inaccurate Gaussians. GOF
+[26] employs ray-tracing-based volume rendering to enable
+the direct extraction of geometry. Building upon GOF [26],
+RaDe-GS [27] introduces a rasterized approach for computing
+precise depth maps of general Gaussian splats. Furthermore,
+there are methods that combine 3DGS with neural SDF [28]-—
+[30]. Regarding mesh extraction, Gaussian Surfels involve
+constructing an occupancy map using Gaussians and removing
+sampled points within unoccupied voxels.
+
+
+Text from samplepdfimage-2.jpg:
+Fig. 3. Comparison of colorized point clouds generated using two different
+methods, (a) interpolated image poses and (b) our previous work [31]. Our
+method produces colorized point clouds with more distinct textures.
+
+However, the aforementioned methods face challenges in
+dealing with large-scale scenes, even when LiDAR is inte-
+grated for initialization. Therefore, we propose a novel GMM-
+based normalization approach to accurately learn geometry.
+Additionally, we present a coarse-to-fine method for efficient
+mesh extraction.
+
+II]. PRELIMINARIES
+
+2DGS [14] models the scene using a set of flat Gaussian sur-
+fels, allowing for better alignment with thin surfaces. The basic
+attributes of a surfel include the central point p; € R®, radii
+Ta, 2 he, € Rt, two corresponding normalized orthogonal
+vectors ty, ty; € R?, a normal vector n; = ty, X ty,, opacity
+o; € [0,1], and the view-dependent appearance c; € R®
+parameterized with spherical harmonics. A Gaussian surfel
+defines a local 2D tangent space. A point u = [u,v]! in this
+space can be converted into the world space p(u) € R® via
+p(u) = pp + ru, tu,u + Tv, tv,v. Its Gaussian value f(u) is
+evaluated as f(u) = exp (—(u? + v?) /2).
+
+To render an image, 2DGS first sorts the surfels in a front-
+to-back order. For a point x € R? in the image space, its
+appearance c(x) is calculated via
+
+N ga
+= Dd civif (ui(x)) IIa —o;f(uj(x))),
+
+where JN is the number of visible surfels, and u;(x) is a 2D-to-
+2D mapping that projects a point in the image space onto the
+tangent space by finding the intersection of three non-parallel
+planes.
+
+IV. METHODOLOGY
+
+Fig. 2 provides an overview of our system. In this section,
+we introduce our system from the following aspects: prepro-
+cessing (IV-A), initialization (IV-B), optimization (IV-C), and
+mesh extraction (IV-D).
+
+A. Preprocessing
+
+Our system processes LiDAR scans and RGB images as
+inputs and incorporates preprocessing steps to enhance data ac-
+curacy. Initially, SLICT [32], a state-of-the-art LiDAR-Inertial
+continuous-time SLAM system, is employed to estimate the
+initial poses of the LiDAR scans. Subsequently, M-detector
+[33] is utilized to remove dynamic objects from the scans,
+followed by HBA [34] to enhance the accuracy of the global
+point cloud. For input images, our previous work [31] provides
+accurate initial image poses, as shown in Fig. 3. These poses
+are further refined using Colmap-PCD [35]. The preprocessing
+steps result in accurate global point clouds and consistent
+image poses.
+
+; 4
+Voxel-Wise Plane-Constrained
+Plane Fitting GMM Modeling _ {I
+I
+
+Initial Gaussian ‘ee miei Generation —§ _
+Surfels | DP
+= Hash a GMM
+GMM-to-Gaussian- = item |
+
+Surfel Conversion
+
+Fig. 4. The pipeline of plane-constrained incremental 4D GMM modeling.
+
+B. Initialization
+
+Building upon previous works [36], [37], we propose a
+method for generating multimodal Gaussian Mixture Models
+(GMMs) from large-scale colorized point clouds and utilize
+the spatial hash to efficiently maintain the GMMs. The pipeline
+is shown in Fig. 4.
+
+First, we traverse the images and project the global point
+cloud, generating a sequence of colorized point cloud frames.
+For the first frame, voxelization is performed followed by
+the utilization of RANSAC [38] within each voxel to extract
+planes. A set of points located on the same plane can be
+denoted as P = {z,; | z = [pi,g:]',pi € R°, 9: € (0, 1]},
+where p; signifies the position in the world space and g;
+represents the gray scale calculated using the RGB value.
+These points can be characterized by their mean p € R’,
+eigenvalues ag < a, < qg and corresponding normalized
+eigenvectors Vo, V1, and v2 of their covariance.
+
+The local 4D GMM is modeled from the point set P’ =
+{z' | 2 = [uj,v;,0,g;]'} in the plane frame, where p; =
+P + UiV2 + UiV1 + WiVo. The probability density of a point
+
+z' =[u,v,0,g]' located on this plane can be calculated via
+
+‘= So mN (2! | ui, 5), (2)
+lEeL
+
+where 7}, py, and Xo) € S**4 are the weight, mean, and
+
+covariance of the GMM component J, respectively. The corre-
+sponding set of indices is denoted as £. Notably, 7; satisfies
+hae EL 77 = 1. Moreover, a component can be transformed into
+the world space via
+
+m= 7), 1 = [p',0]' + Hy), ©) = H=E;H",
+3
+H= lo" tl R= [vo,vi,v0] €80(3),
+
+o' 1
+
+where 7), pj, and ©, € S*** are the weight, mean, and
+covariance in the world space. As shown in Fig. 5, 4D GMMs
+take into account the distribution of points in the color dimen-
+sion, accurately representing the surface textures. Additionally,
+plane constraints facilitate effective noise removal, leading to
+thinner components that are highly suitable for conversion into
+Gaussian surfels.
+
+The number of GMM components, denoted by |L], is
+adjusted based on the scene complexity. It is determined
+by minimizing an information-theoretic objective function as
+described in [36]. This objective function can be approximated
+using the Gaussian Mean Shift [39].
+
+
+Text from samplepdfimage-3.jpg:
+)
+| eee
+[dO r—“CSCCCCCCTC CY
+
+thickness:
+0.004m
+
+thickness:
+0.074m
+
+wi Gaussian Surfel
+
+Fig. 5. The performance of plane-constrained 4D GMM modeling. GMM
+components are represented as ellipsoids. (a) Illustration of the input colorized
+point cloud. (b), (d) The plane-constrained 4D GMMs in two specific areas.
+(c), (e) The 3D GMMs without plane constraints.
+
+Upon receiving a subsequent colorized point cloud frame F,
+the system identifies the effective points in the new space. The
+points in F are divided into two sets: the ones in the existing
+voxels (F°) and the ones in the new voxels (#") by querying
+the spatial hash. They satisfy the condition 7 = FJ" UF°. The
+effective points in the existing voxels (F') are determined by
+calculating the log-likelihood as
+
+F! = {2; € F° | 2; = [pj,9)]',L(pj) <p}, (4)
+L(p;) = In (px (p;))
+
+(5)
+=In{ So mM (p; | wR, SRP) |
+kek
+ype yyPs
+—f,,P .,9]7 — |7k k
+Uk = [Mi Hil i be =| > (6)
+
+where K denotes the set of indices of the global GMM. p
+is a pre-determined threshold, and L(p;) denotes the log-
+likelihood of p;. The distribution of gray scale is unrelated to
+spatial effectiveness, so L(p;) is calculated using the marginal
+probability density px (p,;) instead of px (z;). Consequently,
+the effective points in the current frame (F°) are determined
+as F*° = F" UF. After traversing all the images, the global
+GMM is converted to the initial Gaussian surfels via
+
+— 2P — _ —
+P= My,» ny, = Wo,> 1 —= W2,> to, — Wi,>
+Pup = VY2n> Tur = VV1e> Ok = 0.6 + 0.47%,
+
+where yo, <¥1, < Ya, and Wo,, W1,, and We, are the eigen-
+values and corresponding eigenvectors of =P, respectively.
+
+(7)
+
+C. Optimization
+
+Despite the introduction of LiDAR in initialization, both
+3DGS [4] and 2DGS [14] produce noisy reconstruction when
+solely optimized with photometric loss, especially in sparse-
+view scenes. To address this issue, we propose a comprehen-
+sive normalization approach alongside an innovative geometry-
+aware density control method.
+
+1) Normalization: Our total loss L consists of five compo-
+nents: GMM loss Lge, photometric loss Lp, sky loss Ley,
+depth image loss Lg, and normal image loss L,, which can be
+calculated via
+
+where weights Agmm, Aa, and A, balance the loss terms.
+
+(a) Calculating GMM Loss
+
+Fig. 6. Using GMMs to supervise Gaussian surfels. (b)-(c) Comparison
+of rendered normal images without and with GMM loss. The GMM loss
+effectively mitigates the noise present in the result surfaces.
+
+GMM loss. The multimodal GMM is employed to optimize
+the position and shape of Gaussian surfels in 3D space. As
+shown in Fig. 6(a), Pg, Ng, Tu, 2 Vuq> tug and ty, represent
+the position, normal, radii and corresponding principle vectors
+of the Gaussian surfel indexed with g, respectively. Following
+this, the AK nearest GMM components are identified, where
+fg, and Vy, represent the mean and normal vector of the
+GMM component gz.
+
+Firstly, the distance Lgj, between pg and the surface defined
+by the k’ GMM components is minimized to ensure proper
+alignment of the Gaussian surfels with the local structure. The
+Lais 18 calculated via
+
+1 G
+Lais = G > 4a (Po): (9)
+
+g=1
+
+where G represents the number of visible Gaussian surfels
+under the current viewpoint, and d,(p) is a weighted distance
+
+K
+dg(p) = S— wey |[(P — Hox) Yorll, (10)
+
+k=1
+
+where the weight wy, = exp (-Ilp, - Ho, |3/20”) empha-
+sizes the contribution of closer GMM components.
+
+To ensure the shape accuracy of Gaussian surfels, we
+introduce shape control points Cu, = Pg + Aru,tu, and
+Cy, = Pg + Ory, ty,, and we minimize the distance Leontrot
+calculated via
+
+1 G
+Lcontrol = G S- lo, (11)
+g=1
+dg(Cu,) +dg(Cv,), if rv, > ¢,
+ly = dg(Cu,), if Tug 2 >, Tu, s ?, (12)
+0, otherwise,
+
+where the threshold @ serves to selectively supervise larger
+Gaussian surfels. Additionally, we leverage the weighted nor-
+mal vectors to supervise the normal vectors of Gaussian surfels
+through the loss function Lpormal, Which is computed via
+
+G
+1
+Lipormal = GO llity — Higll, + [1 —nj nl], . (13)
+
+g=1
+
+where fy = (oe Wo.Yox) / pan Wg,Vg,,||_- Finally,
+2
+Loum is calculated via Lamm = Lais + Leontrot + L
+
+normal -
+
+
+Text from samplepdfimage-4.jpg:
+Photometric loss. Similar to 3DGS [4], we utilize the pho-
+tometric loss to minimize the difference between the rendered
+RGB image I and the input image I via
+
+Lp = 0.8L: (1,1) + 0.2Lp-ssm(I, 1). (14)
+
+Sky loss. The sky loss is introduced in outdoor scenes to
+mitigate artifacts specifically within the sky region. Firstly, a
+semantic segmentation network [40] is utilized to generate a
+sky mask, denoted as M, where zero indicates sky regions.
+M is employed to mask the sky area in the input RGB image.
+Furthermore, the sky loss Lgjy is calculated via
+
+where S is the rendered silhouette image.
+
+Depth and normal image losses. Depth images D and
+normal images N derived using LiDAR are employed to align
+Gaussian surfels with the global structure via
+
+La = 11(D,D), L, = (1—N-N), (16)
+
+where D and N denote the rendered depth and normal images,
+respectively.
+
+2) Geometry-Aware Density Control: Our system dynam-
+ically controls both the number and density of Gaussians
+throughout the optimization stage, enabling a transition from
+a sparse set of initial Gaussians to a denser set that provides
+a more accurate representation of the scene. To eliminate
+redundant and inaccurate Gaussians while improving the dis-
+tribution of Gaussians according to the geometric structure,
+we introduce the weighted distance d,(p,) into both the
+growing and pruning mechanisms, enhancing the gradient-
+based density control criteria used in 3DGS [4]. Specifically,
+the growing criterion is formulated as
+
+2
+
+esrowth = (1 —_ Werowth) Vg + WerowthWscale EXP (-2") >
+
+(17)
+
+where V, represents the averaged position gradient, and Wecale
+
+is employed to ensure that the magnitudes are on a similar
+
+scale. Consequently, when «°™" exceeds a predetermined
+
+threshold, a new Gaussian surfel is added. Furthermore, Gaus-
+
+sian surfels far away from the surfaces are more prone to be
+pruned. The pruning criterion is defined as
+
+runin; d (p ‘is
+& ® = Og — Wpruning (1 exp ( “ll ; (18)
+
+where og denotes opacity. Gaussian surfels exhibiting low
+pruning
+€g are subsequently pruned.
+
+D. Mesh Extraction
+
+Gaussian Surfels [15] construct an occupancy map and
+remove sampled points within unoccupied voxels to eliminate
+artifacts near depth discontinuities. Nonetheless, in unbounded
+scenes, large grids may result in excessive point removal, while
+small grids compromise computational efficiency. To tackle
+this issue, we incorporate GMMs into mesh extraction.
+
+Initially, we construct a voxel map and compute the oc-
+cupancy. Samples within unoccupied voxels (purple points
+in Fig. 2(c)) are then removed. Subsequently, to facilitate
+
+TABLE I
+DATASET DETAILS
+
+#LiDAR Trajectory
+
+Scene Description # Images i Length (m) Area (m~)
+1 Street 300 861 59.15 449.42
+2 Street 568 828 36.19 396.66
+3 Campus 393 522 17.72 713.50
+4 Campus 454 320 12.71 463.65
+5 Campus 2148 1640 103.30 2141.50
+6 Indoor 977 704 33.14 959.51
+
+TABLE II
+PARAMETER SETTINGS
+
+AcmM Aw An Ko a T Werowth  Wscale — pruning
+
+1.0 0.1 O01 4 #O1 O05 0.01 0.4 0.0002 0.003
+
+refinement, we discard samples located distant from the object
+surfaces within occupied grids (red points in Fig. 2(c)), based
+on the weighted distance d(p). Finally, the mesh is extracted
+using the screened Poisson method [19].
+
+V. EXPERIMENTS
+A. Experimental Setup
+
+We develop a platform for data collection, as shown in
+Fig. 1(f). This device consists of two HESAI XT32 LiDAR
+sensors, an Insta360 ONE RS camera, and an Alubi LPMS-
+IG1 IMU. We collect six scenes in both outdoor and indoor
+environments, covering a range of unbounded and sparse-view
+areas. The details are provided in Tab. I. Furthermore, we use
+a train/test split for the datasets, with every 8th photo reserved
+for testing. The learning rates are set the same as 3DGS [4].
+All experiments are conducted using the parameters provided
+in Tab. II and run on a single RTX-4090 GPU.
+
+To evaluate our method quantitatively, We consider both
+geometric and rendering quality. For geometric quality, we
+employ metrics such as accuracy, completeness, Chamfer-L1
+distance, recall, precision, and F-score. The recall, precision,
+and Fl-score are computed as percentages using a threshold
+of 20 cm, following the evaluation criteria used in studies [8],
+[9]. These metrics are computed by comparing result meshes
+with the reference precise and dense point clouds obtained
+by the platform and carefully denoised, consistent with the
+evaluation methods of studies [10], [22]. For rendering quality,
+we use the standard metrics such as the Peak Signal-to-
+Noise Ratio (PSNR) and Structural Similarity Index (SSIM).
+Additionally, we measure the training time and the number of
+model components.
+
+B. Comparative Study
+
+We compare our approach with four mapping methods
+that utilize only LIDAR (SLAMesh [21], VDBFusion [22],
+SHINE-Mapping [8], and NeRF-LOAM [9]), as well as nine
+state-of-the-art Gaussian-based surface reconstruction meth-
+ods. To ensure the correct scaling of result meshes and enhance
+the mapping capability of Gaussian-based methods in large-
+scale scenes for fair comparison, we initialize these methods
+using colorized point clouds, following the ideas described in
+
+
+Text from samplepdfimage-5.jpg:
+(a) LI-GS (Ours)
+
+(d) GOF [26] (e) NeRF-LOAM [9]  (f) VDBFusion [22]
+
+Fig. 7. Geometric quality comparison of different methods in outdoor and indoor scenes. Each row shows the results of a scene using different methods, and
+
+the colorized boxes emphasize the surface details.
+
+TABLE II
+GEOMETRIC QUALITY COMPARISON
+
+Method Acc.!{| Comp.. C-LIL Ret Pret Fit
+
+x SLAMesh 1.77 Oe 0.92 77.30 90.74 83.44
+<  VDBFusion 13.65 0.47 96. 89.51 88.95
+&  SHINE-Mapping 8.82 10.15 9.50 5 94.03 89.05
+
+NeRF-LOAM 9.02 [TAT 812200 «85.17 198
+
+2DGS 3.98 18.60 6.28 71.65 80.85 75.82
+
+Gaussian Surfels 4.25 35.95 25.10 70.47 48.33. 57.29
+= PGSR 3.52 19.63 6.58 72.66 73.67 73.08
+2  RaDe-GS 3.28 17.13 5.22 73.42 78.59 75.88
+e LIV-GaussMap 4.17 15.48 480 72.54 80.33 76.18
+& GOF 4.27 15.37 4.83 70.55 80.20 75.04
+Q SuGaR 2.88 15.62 4.23 75.02 81.86 78.23
+4 Trim2DGS 4.65 33.75 25.30 68.64 61.12 64.09
+
+Trim3DGS 4.47 71.09 77.52
+
+16.28 5:37
+
+74.08
+LI-GS (Ours) 7
+
+1 Accuracy, completeness, and Chamfer-L1 distance are reported in cm. Recall,
+precision, and Fl-score are calculated as % using a 20 cm error threshold.
+? Best results are highlighted as
+
+TABLE IV
+RENDERING QUALITY COMPARISON
+
+Method Train Test Training
+PSNRt SSIMt PSNRt SSIMt Time
+2DGS 2735" 0.888 27.18 0.884 17m
+Gaussian Surfels 26.41 0.856 26.34 0.854
+LIV-GaussMap 27.29 a
+GOF m46s
+SuGaR 26.73 0.882 27.31 0.883 59m24s
+Trim2DGS 0.872 25.24 0.87 32ml1s
+LI-GS (Ours) 27.60 0.885 33m16s
+* Best results are highlighted as and 3rd .
+
+studies [2], [16], [18]. Additionally, we also incorporate sky
+masks in these methods.
+
+As shown in Tab. III, our approach outperforms all baseline
+methods across all metrics. The performance of our approach
+is further shown in Fig. 7. When comparing Fig. 7(a) with
+(e) and (f), it is evident that Gaussian-based methods can
+reconstruct more comprehensive surfaces, and this can be
+attributed to the using of visual information. Furthermore,
+
+TABLE V
+ABLATION STUDY ON INITIALIZATION AND NORMALIZATION
+
+Initialization Normalization *
+
+Method with GMM Loss ee + Comp. CLI FIT
+SfM v 5.18 12.68 8.93 93.15
+Colorized PC v 4.95 8.96 6.98 95.00
+GMM x 7.10 15.08 11.10 89.35
+GMM v 4.37 4.63 451 98.07
+
+“ Accuracy, completeness, and Chamfer-L1 distance are reported in cm. F1-
+score is calculated as % using a 20 cm error threshold.
+
+when comparing Fig. 7(a) with (c) and (d), it is observed
+that the introduction of LiDAR normalization mitigates the
+excessive impact of the photometric loss on the positions
+and shapes of Gaussians, thereby enhancing reconstruction
+quality. Additionally, when comparing Fig. 7(a) with (b), it
+is evident that the normal-depth consistency regularization of
+2DGS results in a loss of mesh details in large-scale scenes.
+
+As shown in Tab. IV, our method achieves comparable
+results with the current Gaussian-based methods in terms
+of rendering quality, as shown in Fig. 8(a). Our method
+demonstrates improved rendering quality compared to 2DGS,
+which can be attributed to the integration of accurate LiDAR
+normalization. As for training time, our method is slightly
+slower than 2DGS due to the requirement of nearest neighbor
+search in our GMM normalization.
+
+C. Ablation Study
+
+1) Initialization: We compare three initialization methods:
+SfM points generated by Colmap-PCD [35] (SfM), colorized
+LiDAR point clouds (Colorized PC), and our GMM-based
+initialization method (GMM). Tab. V shows that GMM-based
+initialization method achieves better geometric quality. Fig.
+9 presents a clear comparison of the initialization methods.
+The indoor scene exhibits the issue of ground reflection, as
+shown in Fig. 1(g). It is evident that inappropriate initialization
+
+
+Text from samplepdfimage-6.jpg:
+(a) Rendered RGB (b) w/ GMM loss (c) w/o GMM loss
+
+Fig. 8. Results of our method in two scenes. (a) Rendered RGB images.
+(b)-(c) Comparison of rendered normal images with and without GMM loss.
+
+TABLE VI
+ITER! RENDERING QUALITY USING DIFFERENT INITIALIZATION
+METHODS
+Initialization Method Lil PSNR} = SSIMt
+SfM 0.207 11.74 0.139
+Colorized PC 0.069 17.14 0.616
+GMM 0.065 17.21 0.618
+
+© (d) Colorized PC
+
+(c) S*M
+
+Fig. 9. Comparison of initialization methods in the indoor scene. (a) The
+reference colorized point cloud. (b)-(d) The positions of Gaussians of three
+initialization methods.
+
+methods can result in incorrect convergence. Specifically, the
+Gaussians on the ground become transparent, while numerous
+Gaussians appear underground (Fig. 9(c) and (d)). Similar
+issues occur in other Gaussian-based reconstruction methods,
+as depicted in the last row of Fig. 7, resulting in ground
+depressions in the result mesh. In contrast, GMMs provide
+more accurate initial models, leading to a correct convergence.
+Fig. 9(b) illustrates that our method does not have Gaussians
+underground. As shown in Fig. 7(a), our method produces a
+smooth and complete ground mesh. Moreover, as shown in
+Tab. VI, the integration of LIDAR can enhance the initializa-
+tion for novel view synthesis.
+
+2) Optimization: Our method is evaluated both with and
+without GMM normalization, and the geometric quality is
+presented in Tab. V. The results indicate that our method
+achieves better geometric quality when GMM normalization is
+applied. Fig. 6 and Fig. 8 show the performance of GMM nor-
+malization in reducing noise and producing smooth surfaces.
+Furthermore, we evaluate our method both with and without
+
+a
+
+x10
+2 ; ME 2DGs
+g [GS Ours w/o GDC
+3? HG Ours w/ GDC
+I
+61
++
+
+Scene1 Scene2 Scene3 Scene4 Scene5 Scene 6
+
+Fig. 10. Comparison of the numbers of model components in six scenes.
+
+(a) Ours
+
+(b) Gaussian Surfels (c) TSDF
+
+Fig. 11. Comparison of three different mesh extraction methods.
+
+TABLE VII
+ABLATION STUDY ON MESH EXTRACTION
+
+Mesh Extraction
+
+Method Acc."| Comp.| C-L1l Fit
+TSDF 12.48 11.90 12.23 83.02
+Gaussian Surfels 3.42 17,35 10.37 90.11
+Ours 4.37 4.63 4.51 98.07
+
+* Accuracy, completeness, and Chamfer-L1 distance are
+reported in cm. Fl-score is calculated as % using a 20 cm
+error threshold.
+
+Geometry-aware Density Control (GDC) and visualize the
+number of components in each scene in Fig. 10. On average,
+the components are reduced by 45.22%, showing the effective
+removal of redundant and inaccurate Gaussians by GDC.
+
+3) Mesh Extraction: We compare three mesh extraction
+methods: TSDF from 2DGS, the cutting and meshing method
+from Gaussian Surfels [15], and our coarse-to-fine method.
+Although the method from Gaussian Surfels achieves slightly
+better accuracy, it removes too many sampled points, resulting
+in an incomplete mesh (Fig. 11(b)) and inferior completeness
+(Tab. VII). Additionally, TSDF generates incorrect sampled
+points near depth discontinuities, as indicated by the colorized
+box in Fig. 11(c). Our mesh achieves a good balance between
+accuracy and completeness.
+
+VI. CONCLUSION
+
+This paper introduces LI-GS, a reconstruction system that
+incorporates LiDAR with Gaussian Splatting to improve ge-
+ometric accuracy in large-scale scenes. The precise LiDAR
+measurements are leveraged in various essential steps of the
+system, including initialization, regularization, density control,
+and mesh extraction. Additionally, we propose an incremental
+multimodal modeling approach with plane constraints for
+generating GMMs. Experiments validate the outstanding per-
+formance of LI-GS in 3D reconstruction. Our future work
+will involve the application of our method in Simultaneous
+Localization and Mapping (SLAM).
+
+
+Text from samplepdfimage-7.jpg:
+(1)
+
+[2]
+
+[3]
+
+[4
+
+fan)
+
+[5]
+
+[6
+
+oa
+
+[7]
+
+[8
+
+fiat}
+
+[9]
+
+[10]
+
+[11]
+
+[12]
+
+[13]
+
+[14]
+
+[15]
+
+[16]
+
+[17]
+
+[18]
+
+[19]
+
+[20]
+
+[21]
+
+REFERENCES
+
+Y. Cui, R. Chen, W. Chu, L. Chen, D. Tian, Y. Li, and D. Cao,
+“Deep learning for image and point cloud fusion in autonomous driving:
+A review,” IEEE Transactions on Intelligent Transportation Systems,
+vol. 23, no. 2, pp. 722-739, 2021.
+
+Y. Tao, Y. Bhalgat, L. F. T. Fu, M. Mattamala, N. Chebrolu, and M. Fal-
+lon, “Silvr: Scalable lidar-visual reconstruction with neural radiance
+fields for robotic inspection,’ arXiv preprint arXiv:2403.06877, 2024.
+T. Wang, X. Mao, C. Zhu, R. Xu, R. Lyu, P. Li, X. Chen, W. Zhang,
+K. Chen, T. Xue et al., “Embodiedscan: A holistic multi-modal 3d
+perception suite towards embodied ai,” in Proceedings of the IEEE/CVF
+Conference on Computer Vision and Pattern Recognition, 2024, pp.
+19 757-19 767.
+
+B. Kerbl, G. Kopanas, T. Leimkiihler, and G. Drettakis, “3d gaussian
+splatting for real-time radiance field rendering”’ ACM Trans. Graph.,
+vol. 42, no. 4, pp. 139-1, 2023.
+
+B. Mildenhall, P. P. Srinivasan, M. Tancik, J. T. Barron, R. Ramamoorthi,
+and R. Ng, “Nerf: Representing scenes as neural radiance fields for view
+synthesis,” Communications of the ACM, vol. 65, no. 1, pp. 99-106,
+2021.
+
+S. Isaacson, P.-C. Kung, M. Ramanagopal, R. Vasudevan, and K. A.
+Skinner, “Loner: Lidar only neural representations for real-time slam,”
+IEEE Robotics and Automation Letters, 2023.
+
+K. Rematas, A. Liu, P. P. Srinivasan, J. T. Barron, A. Tagliasacchi,
+T. Funkhouser, and V. Ferrari, “Urban radiance fields,” in Proceedings of
+the IEEE/CVF Conference on Computer Vision and Pattern Recognition,
+2022, pp. 12932-12942.
+
+X. Zhong, Y. Pan, J. Behley, and C. Stachniss, “Shine-mapping: Large-
+scale 3d mapping using sparse hierarchical implicit neural represen-
+tations,” in 2023 IEEE International Conference on Robotics and
+Automation (ICRA). JEEE, 2023, pp. 8371-8377.
+
+J. Deng, Q. Wu, X. Chen, S. Xia, Z. Sun, G. Liu, W. Yu, and L. Pei,
+“Nerf-loam: Neural implicit representation for large-scale incremental
+lidar odometry and mapping,” in Proceedings of the IEEE/CVF Inter-
+national Conference on Computer Vision, 2023, pp. 8218-8227.
+
+X. Yu, Y. Liu, S. Mao, S. Zhou, R. Xiong, Y. Liao, and Y. Wang, “Nf-
+atlas: Multi-volume neural feature fields for large scale lidar mapping,”
+IEEE Robotics and Automation Letters, 2023.
+
+N. Keetha, J. Karhade, K. M. Jatavallabhula, G. Yang, S. Scherer,
+D. Ramanan, and J. Luiten, “Splatam: Splat track & map 3d gaussians
+for dense rgb-d slam,” in Proceedings of the IEEE/CVF Conference on
+Computer Vision and Pattern Recognition, 2024, pp. 21 357-21 366.
+H. Matsuki, R. Murai, P. H. Kelly, and A. J. Davison, “Gaussian splatting
+slam,” in Proceedings of the IEEE/CVF Conference on Computer Vision
+and Pattern Recognition, 2024, pp. 18 039-18 048.
+
+C. Wu, Y. Duan, X. Zhang, Y. Sheng, J. Ji, and Y. Zhang, “Mm-gaussian:
+3d gaussian-based multi-modal fusion for localization and reconstruction
+in unbounded scenes,” arXiv preprint arXiv:2404.04026, 2024.
+
+B. Huang, Z. Yu, A. Chen, A. Geiger, and S. Gao, “2d gaussian splatting
+for geometrically accurate radiance fields,’ in ACM SIGGRAPH 2024
+Conference Papers, 2024, pp. 1-11.
+
+P. Dai, J. Xu, W. Xie, X. Liu, H. Wang, and W. Xu, “High-quality
+surface reconstruction using gaussian surfels,” in ACM SIGGRAPH 2024
+Conference Papers, 2024, pp. 1-11.
+
+S. Hong, J. He, X. Zheng, C. Zheng, and S. Shen, “Liv-gaussmap: Lidar-
+inertial-visual fusion for real-time 3d radiance field map rendering,”
+IEEE Robotics and Automation Letters, 2024.
+
+H. Zhou, J. Shao, L. Xu, D. Bai, W. Qiu, B. Liu, Y. Wang, A. Geiger,
+and Y. Liao, “Hugs: Holistic urban 3d scene understanding via gaussian
+splatting,’ in Proceedings of the IEEE/CVF Conference on Computer
+Vision and Pattern Recognition, 2024, pp. 21 336-21 345.
+
+J. Cui, J. Cao, Y. Zhong, L. Wang, F. Zhao, P. Wang, Y. Chen, Z. He,
+L. Xu, Y. Shi et al., “Letsgo: Large-scale garage modeling and rendering
+via lidar-assisted gaussian primitives,” arXiv preprint arXiv:2404.09748,
+2024.
+
+M. Kazhdan and H. Hoppe, “Screened poisson surface reconstruction,”
+ACM Transactions on Graphics (ToG), vol. 32, no. 3, pp. 1-13, 2013.
+J. L. Schonberger and J.-M. Frahm, “Structure-from-motion revisited,”
+in Proceedings of the IEEE conference on computer vision and pattern
+recognition, 2016, pp. 4104-4113.
+
+J. Ruan, B. Li, Y. Wang, and Y. Sun, “Slamesh: Real-time lidar
+simultaneous localization and meshing,” in 2023 [EEE International
+Conference on Robotics and Automation (ICRA). EEE, 2023, pp.
+3546-3552.
+
+[22]
+
+[23]
+
+[24
+
+[25]
+
+[26]
+
+[27]
+
+[28]
+
+[29]
+
+[30]
+
+[31]
+
+[32]
+
+[33]
+
+[34]
+
+[35]
+
+[36]
+
+[37]
+
+[38]
+
+[39
+
+[40
+
+I. Vizzo, T. Guadagnino, J. Behley, and C. Stachniss, “Vdbfusion:
+Flexible and efficient tsdf integration of range sensor data,” Sensors,
+vol. 22, no. 3, p. 1296, 2022.
+
+A. Guédon and V. Lepetit, “Sugar: Surface-aligned gaussian splatting
+for efficient 3d mesh reconstruction and high-quality mesh rendering,”
+in Proceedings of the IEEE/CVF Conference on Computer Vision and
+Pattern Recognition, 2024, pp. 5354-5363.
+
+D. Chen, H. Li, W. Ye, Y. Wang, W. Xie, S. Zhai, N. Wang,
+H. Liu, H. Bao, and G. Zhang, “Pgsr: Planar-based gaussian splatting
+for efficient and high-fidelity surface reconstruction,’ arXiv preprint
+arXiv:2406.06521, 2024.
+
+L. Fan, Y. Yang, M. Li, H. Li, and Z. Zhang, “Trim 3d gaussian splatting
+for accurate geometry representation,” arXiv preprint arXiv:2406.07499,
+2024.
+
+Z. Yu, T. Sattler, and A. Geiger, “Gaussian opacity fields: Efficient and
+compact surface reconstruction in unbounded scenes,” arXiv preprint
+arXiv:2404.10772, 2024.
+
+B. Zhang, C. Fang, R. Shrestha, Y. Liang, X. Long, and P. Tan,
+“Rade-gs: Rasterizing depth in gaussian splatting,’ arXiv preprint
+arXiv:2406.01467, 2024.
+
+M. Yu, T. Lu, L. Xu, L. Jiang, Y. Xiangli, and B. Dai, “Gsdf: 3dgs
+meets sdf for improved rendering and reconstruction,” arXiv preprint
+arXiv:2403.16964, 2024.
+
+H. Chen, C. Li, and G. H. Lee, “Neusg: Neural implicit surface
+reconstruction with 3d gaussian splatting guidance,’ arXiv preprint
+arXiv:2312.00846, 2023.
+
+X. Lyu, Y.-T. Sun, Y.-H. Huang, X. Wu, Z. Yang, Y. Chen, J. Pang,
+and X. Qi, “3dgsr: Implicit surface reconstruction with 3d gaussian
+splatting,’ arXiv preprint arXiv:2404.00409, 2024.
+
+C. Jiang, Z. Wan, R. Gao, and Y. Zhang, “Er-mapping: An extrinsic
+robust coloured mapping system using residual evaluation and selection,”
+IET Cyber-Systems and Robotics, vol. 6, no. 2, p. e12116, 2024.
+
+T.-M. Nguyen, D. Duberg, P. Jensfelt, S. Yuan, and L. Xie, “Slict: Multi-
+input multi-scale surfel-based lidar-inertial continuous-time odometry
+and mapping,” JEEE Robotics and Automation Letters, vol. 8, no. 4,
+pp. 2102-2109, 2023.
+
+H. Wu, Y. Li, W. Xu, F. Kong, and F. Zhang, “Moving event detection
+from lidar point streams,” nature communications, vol. 15, no. 1, p. 345,
+2024.
+
+X. Liu, Z. Liu, F. Kong, and F. Zhang, “Large-scale lidar consistent
+mapping using hierarchical lidar bundle adjustment,’ JEEE Robotics and
+Automation Letters, vol. 8, no. 3, pp. 1523-1530, 2023.
+
+C. Bai, R. Fu, and X. Gao, “Colmap-pcd: An open-source tool for
+fine image-to-point cloud registration,’ in 2024 IEEE International
+Conference on Robotics and Automation (ICRA). EEE, 2024, pp.
+1723-1729.
+
+K. Goel, N. Michael, and W. Tabib, “Probabilistic point cloud model-
+ing via self-organizing gaussian mixture models,’ IEEE Robotics and
+Automation Letters, vol. 8, no. 5, pp. 2526-2533, 2023.
+
+K. Goel and W. Tabib, “Incremental multimodal surface mapping via
+self-organizing gaussian mixture models,’ IEEE Robotics and Automa-
+tion Letters, vol. 8, no. 12, pp. 8358-8365, 2023.
+
+M. A. Fischler and R. C. Bolles, “Random sample consensus: a paradigm
+for model fitting with applications to image analysis and automated
+cartography,” Communications of the ACM, vol. 24, no. 6, pp. 381-395,
+1981.
+
+Y. Cheng, “Mean shift, mode seeking, and clustering,” JEEE transactions
+on pattern analysis and machine intelligence, vol. 17, no. 8, pp. 790-
+799, 1995.
+
+M. Contributors, “MMSegmentation: Openmmlab semantic  seg-
+mentation toolbox and benchmark,” https://github.com/open-mmlab/
+mmsegmentation, 2020.
+
+
